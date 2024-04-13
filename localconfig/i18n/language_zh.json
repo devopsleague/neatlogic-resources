@@ -2380,6 +2380,9 @@
     },
     "deletediagramlockapi": {
       "getname": "释放架构图编辑锁"
+    },
+    "getdiagramchangedataapi": {
+      "getname": "获取架构图变更数据"
     }
   },
   "nmccdat": {

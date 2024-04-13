@@ -2352,6 +2352,9 @@
     },
     "deletediagramlockapi": {
       "getname": "Release architecture diagram editing lock"
+    },
+    "getdiagramchangedataapi": {
+      "getname": "Obtain architecture diagram change data"
     }
   },
   "nmccdat": {
