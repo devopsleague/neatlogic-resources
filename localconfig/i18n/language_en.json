@@ -2355,6 +2355,9 @@
     },
     "getdiagramchangedataapi": {
       "getname": "Obtain architecture diagram change data"
+    },
+    "searchdiagramapi": {
+      "getname": "Query architecture diagram"
     }
   },
   "nmccdat": {
@@ -4424,6 +4427,7 @@
       "checkuseruuid": "Audit user uuid",
       "currentversion": "current version",
       "diagramid": "Architecture diagram ID",
+      "diagramname": "Architecture diagram name",
       "editlock": "Edit lock",
       "editversion": "Edit version",
       "editversiondata": "Edit version data",
@@ -4446,7 +4450,8 @@
         "rejected": "Failed"
       },
       "templatelist": "Template List",
-      "typelist": "Type List"
+      "typelist": "Type List",
+      "versionidlist": "Version ID list"
     },
     "dr": {
       "customparamlist": "Custom Parameter List",

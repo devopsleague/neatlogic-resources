@@ -2383,6 +2383,9 @@
     },
     "getdiagramchangedataapi": {
       "getname": "获取架构图变更数据"
+    },
+    "searchdiagramapi": {
+      "getname": "查询架构图"
     }
   },
   "nmccdat": {
@@ -4476,6 +4479,7 @@
       "checkuseruuid": "审核用户uuid",
       "currentversion": "当前版本",
       "diagramid": "架构图id",
+      "diagramname": "架构图名称",
       "editlock": "编辑锁",
       "editversion": "编辑版本",
       "editversiondata": "编辑版本数据",
@@ -4498,7 +4502,8 @@
         "rejected": "未通过"
       },
       "templatelist": "模板列表",
-      "typelist": "类型列表"
+      "typelist": "类型列表",
+      "versionidlist": "版本id列表"
     },
     "dr": {
       "customparamlist": "自定义参数列表",
