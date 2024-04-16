@@ -3306,6 +3306,15 @@
     "batchurgeprocesstaskapi": {
       "getname": "批量催办工单"
     },
+    "processconditionlist": {
+      "getname": "流程条件列表",
+      "input": {
+        "param": {
+          "desc": "表单uuid",
+          "isneedcomplexattr": "是否需要复杂属性"
+        }
+      }
+    },
     "processdraftgetapi": {
       "getname": "获取流程草稿信息"
     },
