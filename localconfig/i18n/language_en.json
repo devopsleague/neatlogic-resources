@@ -2364,6 +2364,9 @@
     "gettemplatestatusapi": {
       "getname": "Get template status list"
     },
+    "listtemplateapi": {
+      "getname": "Get template list"
+    },
     "validatetemplateapi": {
       "getname": "Verify template files"
     }
@@ -3252,6 +3255,15 @@
     },
     "batchurgeprocesstaskapi": {
       "getname": "Batch reminder work orders"
+    },
+    "processconditionlist": {
+      "getname": "Process Condition List",
+      "input": {
+        "param": {
+          "desc": "Form uuid",
+          "isneedcomplexattr": "Do you need complex attributes"
+        }
+      }
     },
     "processdraftgetapi": {
       "getname": "Obtain process draft information"

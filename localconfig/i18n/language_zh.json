@@ -2392,6 +2392,9 @@
     "gettemplatestatusapi": {
       "getname": "获取模板状态列表"
     },
+    "listtemplateapi": {
+      "getname": "获取模板列表"
+    },
     "validatetemplateapi": {
       "getname": "验证模板文件"
     }
@@ -3302,6 +3305,15 @@
     },
     "batchurgeprocesstaskapi": {
       "getname": "批量催办工单"
+    },
+    "processconditionlist": {
+      "getname": "流程条件列表",
+      "input": {
+        "param": {
+          "desc": "表单uuid",
+          "isneedcomplexattr": "是否需要复杂属性"
+        }
+      }
     },
     "processdraftgetapi": {
       "getname": "获取流程草稿信息"
