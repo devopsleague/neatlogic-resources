@@ -2364,6 +2364,9 @@
     "gettemplatestatusapi": {
       "getname": "Get template status list"
     },
+    "listtemplateapi": {
+      "getname": "Get template list"
+    },
     "validatetemplateapi": {
       "getname": "Verify template files"
     }

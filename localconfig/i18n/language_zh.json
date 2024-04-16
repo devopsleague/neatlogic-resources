@@ -2392,6 +2392,9 @@
     "gettemplatestatusapi": {
       "getname": "获取模板状态列表"
     },
+    "listtemplateapi": {
+      "getname": "获取模板列表"
+    },
     "validatetemplateapi": {
       "getname": "验证模板文件"
     }
