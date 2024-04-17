@@ -4630,6 +4630,9 @@
     "pdb": {
       "name": "PBC"
     },
+    "process": {
+      "isreturnallattr": "Do you want to return all attributes"
+    },
     "rdm": {
       "allowimport": "Allow Import",
       "allowsearch": "Allow search",

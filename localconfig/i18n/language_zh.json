@@ -4682,6 +4682,9 @@
     "pdb": {
       "name": "监管报送"
     },
+    "process": {
+      "isreturnallattr": "是否返回所有属性"
+    },
     "rdm": {
       "allowimport": "允许导入",
       "allowsearch": "允许搜索",
