@@ -4488,6 +4488,7 @@
       "isend": "是否终结",
       "isendversion": "是否终结版本",
       "isprivate": "是否私有",
+      "ispublic": "是否公有",
       "issnapshot": "是否快照",
       "isstarttemplate": "是否开始模板",
       "name": "架构图",

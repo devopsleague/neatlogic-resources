@@ -4436,6 +4436,7 @@
       "isend": "Whether to terminate",
       "isendversion": "Whether to terminate the version",
       "isprivate": "Private or not",
+      "ispublic": "Public ownership or not",
       "issnapshot": "Is it a snapshot",
       "isstarttemplate": "Start template or not",
       "name": "Architecture diagram",
