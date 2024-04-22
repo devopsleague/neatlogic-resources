@@ -2360,6 +2360,11 @@
       "getname": "Query architecture diagram"
     }
   },
+  "nmccdap": {
+    "createprocesstaskdiagramapi": {
+      "getname": "Create a work order architecture diagram"
+    }
+  },
   "nmccdat": {
     "exporttemplateapi": {
       "getname": "Export Template"
@@ -2390,6 +2395,9 @@
     },
     "edgenotfoundexception": {
       "edgenotfoundexception": "Edge \u0027{0}\u0027 does not exist"
+    },
+    "processdiagramstatusirregularexception": {
+      "processdiagramstatusirregularexception": "The architecture diagram {0} needs to enter state {2} before it can flow. The current state is {1}"
     },
     "templatenameisexistsexception": {
       "templatenameisexistsexception": "Template \u0027{0}\u0027 already exists"
@@ -2553,7 +2561,7 @@
       "diagramstatusirregularexception": "The current architecture diagram state has changed. Please refresh the page and edit again"
     },
     "diagramversiondeleteexception": {
-      "diagramversiondeleteexception": "The current architecture diagram version has been approved and cannot be deleted"
+      "diagramversiondeleteexception": "The current version has been released and cannot be deleted"
     },
     "diagramversionnotfoundexception": {
       "diagramversionnotfoundexception": "The architecture diagram version  {0}  does not exist"
@@ -3286,6 +3294,9 @@
           }
         }
       }
+    },
+    "processtaskcompleteapi": {
+      "getname": "Transfer work order"
     },
     "processtaskcreateapi": {
       "getname": "Submit work order (for third-party use)"

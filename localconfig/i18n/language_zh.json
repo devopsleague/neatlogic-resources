@@ -2388,6 +2388,11 @@
       "getname": "查询架构图"
     }
   },
+  "nmccdap": {
+    "createprocesstaskdiagramapi": {
+      "getname": "创建工单架构图"
+    }
+  },
   "nmccdat": {
     "exporttemplateapi": {
       "getname": "导出模板"
@@ -2418,6 +2423,9 @@
     },
     "edgenotfoundexception": {
       "edgenotfoundexception": "边“{0}”不存在"
+    },
+    "processdiagramstatusirregularexception": {
+      "processdiagramstatusirregularexception": "架构图{0}需要进入状态{2}后才能流转，当前状态是{1}"
     },
     "templatenameisexistsexception": {
       "templatenameisexistsexception": "模板“{0}”已存在"
@@ -2581,7 +2589,7 @@
       "diagramstatusirregularexception": "当前架构图状态已发生变化，请刷新页面重新编辑"
     },
     "diagramversiondeleteexception": {
-      "diagramversiondeleteexception": "当前架构图版本已经审核通过，不能删除"
+      "diagramversiondeleteexception": "当前版本已经发布，不能删除"
     },
     "diagramversionnotfoundexception": {
       "diagramversionnotfoundexception": "架构图版本“{0}”不存在"
@@ -3336,6 +3344,9 @@
           }
         }
       }
+    },
+    "processtaskcompleteapi": {
+      "getname": "流转工单"
     },
     "processtaskcreateapi": {
       "getname": "上报工单(供第三方使用)"
