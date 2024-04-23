@@ -70,6 +70,7 @@
     "datatype": "data type",
     "date": "date",
     "datetime": "Date Time",
+    "defaultexpression": "Default expression",
     "defaultvalue": "Default Value List",
     "defaultvaluelist": "List of parameters for echo",
     "delaytime": "delay time ",
@@ -109,6 +110,7 @@
     "executeauthoritylist": "Execution permission list",
     "expired": "overdue",
     "expireddays": "Number of timeout days",
+    "expressionlist": "Expression List",
     "failedcount": "Number of errors",
     "failedload": "is failed",
     "favorcount": "Likes",
@@ -125,9 +127,15 @@
     "filter": "Filter conditions",
     "focususerlist": "List of followers",
     "focususeruuidlist": "List of followers\u0027 uuids",
+    "framework": {
+      "formconditionmodel": "Conditional model",
+      "formversionuuid": "Form version uuid",
+      "isuseformconfig": "For frontend rendering, if false, the frontend page needs to use the default config. If true, use the form management to edit and save the config"
+    },
     "group": "grouping",
     "groupid": "group",
     "grouplist": "Restrict interface return types",
+    "handler": "Processor identification",
     "hasmore": "Is there any more content that has not been read yet",
     "hasparent": "Do you have a parent",
     "help": "help",
@@ -214,6 +222,7 @@
     "pageinfo": "Paging data",
     "pagesize": "page size",
     "parentid": "Parent ID",
+    "parentuuid": "Parent uuid",
     "pass": "adopt",
     "password": "password",
     "path": "path",
@@ -3315,6 +3324,7 @@
       }
     },
     "processtaskdraftsaveapi": {
+      "getname": "Work order reporting temporary storage interface",
       "input": {
         "param": {
           "desc": {
@@ -3325,6 +3335,9 @@
     },
     "processtaskrepeatsaveapi": {
       "getname": "Mark duplicate work order interface"
+    },
+    "processtaskstepdraftsaveapi": {
+      "getname": "Work order step temporary storage interface"
     },
     "processtaskstepgetapi": {
       "description": {
@@ -3891,6 +3904,9 @@
     },
     "formversiondeleteapi": {
       "getname": "Delete form version"
+    },
+    "getformattributelistapi": {
+      "getname": "Query Form Property List"
     },
     "saveformversiondefaultsceneapi": {
       "getname": "Set the default scenario for form version"
@@ -4557,7 +4573,7 @@
       "channelpath": "Service Path",
       "channeltypeinfo": "Service Type Information",
       "channeltypename": "Service Type Name",
-      "channeltyperelationid": "Service Type Relationship ID",
+      "channeltyperelationid": "Relationship type ID",
       "channeltyperelationname": "Transfer/Association Type",
       "channeltypeuuid": "Service type uuid",
       "channeluuid": "Service uuid",
@@ -4568,9 +4584,11 @@
       "currentprocesstaskstep": "Current step information of the work order",
       "distributary": "shunt",
       "end": "finish",
+      "focususeruuidlist": "List of Work Order Followers",
       "formattributedatalist": "Form Property Data List",
       "formattributehidelist": "Form Configuration Authorization Hidden Attribute uuid List",
       "formconfigauthoritylist": "Authorization List for Work Order Form Information",
+      "formextendattributedatalist": "Form Extension Attribute Data List",
       "fromprocesstaskid": "Source work order ID",
       "groupdesc": "One stop service reporting tracking processing platform",
       "groupname": "ITSM",
@@ -4582,7 +4600,7 @@
       "mobileformuitype": "Mobile form interaction type, 1: Exploring pages; 0: Current Page",
       "name": "ITSM",
       "omnipotent": "Universal node",
-      "owner": "ReportPerson ",
+      "owner": "Work order submitter",
       "ownercompanylist": "List of companies owned by the work order",
       "ownerdepartmentlist": "List of departments for the work order owner",
       "ownerinfo": "Work order owner information",
