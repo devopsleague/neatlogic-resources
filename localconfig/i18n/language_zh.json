@@ -70,6 +70,7 @@
     "datatype": "数据类型",
     "date": "日期",
     "datetime": "日期时间",
+    "defaultexpression": "默认表达式",
     "defaultvalue": "默认值列表",
     "defaultvaluelist": "用于回显的参数列表",
     "delaytime": "延迟时间",
@@ -109,6 +110,7 @@
     "executeauthoritylist": "执行权限列表",
     "expired": "过期",
     "expireddays": "超时天数",
+    "expressionlist": "表达式列表",
     "failedcount": "错误次数",
     "failedload": "执行失败",
     "favorcount": "点赞量",
@@ -128,6 +130,7 @@
     "group": "分组",
     "groupid": "组id",
     "grouplist": "限制接口返回类型",
+    "handler": "处理器标识",
     "hasmore": "是否有更多内容尚未读取",
     "hasparent": "是否拥有父级",
     "help": "帮助",
@@ -214,6 +217,7 @@
     "pageinfo": "分页数据",
     "pagesize": "每页大小",
     "parentid": "父id",
+    "parentuuid": "父级uuid",
     "pass": "通过",
     "password": "密码",
     "path": "路径",
@@ -1213,6 +1217,13 @@
         "authtypeinvalid": "找不到认证方式 ‘{0}’",
         "lacktenant": "租户 ‘{0}’ 不存在或已被禁用",
         "unexpired": "会话已超时或已被终止，请重新登录"
+      }
+    }
+  },
+  "nffd": {
+    "formattributevo": {
+      "entityfield": {
+        "name": "供前端渲染时判断，如果为false则前端页面需使用默认config,true则使用表单管理编辑保存的config"
       }
     }
   },
@@ -3321,7 +3332,6 @@
       "getname": "流程条件列表",
       "input": {
         "param": {
-          "desc": "表单uuid",
           "isneedcomplexattr": "是否需要复杂属性"
         }
       }
@@ -3365,6 +3375,7 @@
       }
     },
     "processtaskdraftsaveapi": {
+      "getname": "工单上报暂存接口",
       "input": {
         "param": {
           "desc": {
@@ -3375,6 +3386,9 @@
     },
     "processtaskrepeatsaveapi": {
       "getname": "标记重复工单接口"
+    },
+    "processtaskstepdraftsaveapi": {
+      "getname": "工单步骤暂存接口"
     },
     "processtaskstepgetapi": {
       "description": {
@@ -3943,6 +3957,9 @@
     },
     "formversiondeleteapi": {
       "getname": "删除表单版本"
+    },
+    "getformattributelistapi": {
+      "getname": "查询表单属性列表"
     },
     "saveformversiondefaultsceneapi": {
       "getname": "设置表单版本默认场景"
@@ -4557,11 +4574,14 @@
     },
     "framework": {
       "agentid": "企业应用ID",
+      "conditionmodel": "条件模型",
       "corpid": "企业ID",
       "corpsecret": "应用的凭证密钥",
       "documentonlineinfo": "在线帮助文档信息",
       "domain": "域名",
       "exceptionnotify": "通知异常",
+      "formuuid": "表单uuid",
+      "formversionuuid": "表单版本uuid",
       "groupname": "系统配置",
       "integrationuuid": "集成UUID",
       "issuetime": "下发时间",
@@ -4609,7 +4629,7 @@
       "channelpath": "服务路径",
       "channeltypeinfo": "服务类型信息",
       "channeltypename": "服务类型名称",
-      "channeltyperelationid": "服务类型关系id",
+      "channeltyperelationid": "关系类型id",
       "channeltyperelationname": "转报/关联类型",
       "channeltypeuuid": "服务类型uuid",
       "channeluuid": "服务uuid",
@@ -4620,9 +4640,11 @@
       "currentprocesstaskstep": "工单当前步骤信息",
       "distributary": "分流",
       "end": "结束",
+      "focususeruuidlist": "工单关注人列表",
       "formattributedatalist": "表单属性数据列表",
       "formattributehidelist": "表单配置授权隐藏属性uuid列表",
       "formconfigauthoritylist": "工单表单信息授权列表",
+      "formextendattributedatalist": "表单扩展属性数据列表",
       "fromprocesstaskid": "来源工单id",
       "groupdesc": "一站式服务上报-跟踪-处理平台",
       "groupname": "IT服务",
@@ -4634,7 +4656,7 @@
       "mobileformuitype": "移动端表单交互类型，1：下探页面；0：当前页",
       "name": "工作流引擎模块",
       "omnipotent": "通用节点",
-      "owner": "上报人",
+      "owner": "工单上报人",
       "ownercompanylist": "工单所有人的公司列表",
       "ownerdepartmentlist": "工单所有人的部门列表",
       "ownerinfo": "工单所有人信息",
