@@ -353,8 +353,8 @@
     "wechatnotify": "微信通知",
     "widgetlist": "组件列表",
     "worker": "处理人",
-    "worktimename": "工作时间窗口名称",
-    "worktimeuuid": "工作时间窗口uuid"
+    "worktimename": "服务时间窗口名称",
+    "worktimeuuid": "服务时间窗口uuid"
   },
   "enum": {
     "rdm": {
@@ -375,6 +375,7 @@
       "maxnumofcombopversion": "组合工具版本数量上限，例如设置最多10个版本，创建保存第11个版本时，自动删除掉最老的一个，非激活状态的版本。"
     },
     "paramtype": {
+      "accounttag": "账号标签",
       "checkbox": "复选",
       "date": "日期选择器",
       "desc": {

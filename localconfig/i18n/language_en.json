@@ -375,6 +375,7 @@
       "maxnumofcombopversion": "The maximum number of versions of the combination tool, such as setting a maximum of 10 versions, will automatically delete the oldest and inactive version when creating and saving the 11th version."
     },
     "paramtype": {
+      "accounttag": "Account label",
       "checkbox": "check",
       "date": "Date Pickers ",
       "desc": {
