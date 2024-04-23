@@ -127,11 +127,6 @@
     "filter": "过滤条件",
     "focususerlist": "关注人列表",
     "focususeruuidlist": "关注人uuid列表",
-    "framework": {
-      "formconditionmodel": "条件模型",
-      "formversionuuid": "表单版本uuid",
-      "isuseformconfig": "供前端渲染时判断，如果为false则前端页面需使用默认config,true则使用表单管理编辑保存的config"
-    },
     "group": "分组",
     "groupid": "组id",
     "grouplist": "限制接口返回类型",
@@ -1222,6 +1217,13 @@
         "authtypeinvalid": "找不到认证方式 ‘{0}’",
         "lacktenant": "租户 ‘{0}’ 不存在或已被禁用",
         "unexpired": "会话已超时或已被终止，请重新登录"
+      }
+    }
+  },
+  "nffd": {
+    "formattributevo": {
+      "entityfield": {
+        "name": "供前端渲染时判断，如果为false则前端页面需使用默认config,true则使用表单管理编辑保存的config"
       }
     }
   },
@@ -3330,7 +3332,6 @@
       "getname": "流程条件列表",
       "input": {
         "param": {
-          "desc": "表单uuid",
           "isneedcomplexattr": "是否需要复杂属性"
         }
       }
@@ -4573,11 +4574,14 @@
     },
     "framework": {
       "agentid": "企业应用ID",
+      "conditionmodel": "条件模型",
       "corpid": "企业ID",
       "corpsecret": "应用的凭证密钥",
       "documentonlineinfo": "在线帮助文档信息",
       "domain": "域名",
       "exceptionnotify": "通知异常",
+      "formuuid": "表单uuid",
+      "formversionuuid": "表单版本uuid",
       "groupname": "系统配置",
       "integrationuuid": "集成UUID",
       "issuetime": "下发时间",

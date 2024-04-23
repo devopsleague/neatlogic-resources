@@ -127,11 +127,6 @@
     "filter": "Filter conditions",
     "focususerlist": "List of followers",
     "focususeruuidlist": "List of followers\u0027 uuids",
-    "framework": {
-      "formconditionmodel": "Conditional model",
-      "formversionuuid": "Form version uuid",
-      "isuseformconfig": "For frontend rendering, if false, the frontend page needs to use the default config. If true, use the form management to edit and save the config"
-    },
     "group": "grouping",
     "groupid": "group",
     "grouplist": "Restrict interface return types",
@@ -1194,6 +1189,13 @@
         "authtypeinvalid": "Unable to find authType:  {0} ",
         "lacktenant": "Tenant  {0}  does not exist or has been disabled",
         "unexpired": "The session has timed out or been terminated. Please login again"
+      }
+    }
+  },
+  "nffd": {
+    "formattributevo": {
+      "entityfield": {
+        "name": "For frontend rendering, if false, the frontend page needs to use the default config. If true, use the form management to edit and save the config"
       }
     }
   },
@@ -3280,7 +3282,6 @@
       "getname": "Process Condition List",
       "input": {
         "param": {
-          "desc": "Form uuid",
           "isneedcomplexattr": "Do you need complex attributes"
         }
       }
@@ -4521,11 +4522,14 @@
     },
     "framework": {
       "agentid": "Enterprise Application ID",
+      "conditionmodel": "Conditional model",
       "corpid": "Enterprise ID",
       "corpsecret": "Applied credential key",
       "documentonlineinfo": "Online Help Document Information",
       "domain": "domain name",
       "exceptionnotify": "Notification exception",
+      "formuuid": "Form uuid",
+      "formversionuuid": "Form version uuid",
       "groupname": "Framework",
       "integrationuuid": "Integrated UUID",
       "issuetime": "Issuance time",
