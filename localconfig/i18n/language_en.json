@@ -1176,6 +1176,11 @@
       "tenantconfignotfoundexception": "Configuration information: {0} does not exist"
     }
   },
+  "nfeu": {
+    "ipsubnetmaskexception": {
+      "ipsubnetmaskexception": "IP: {0} encountered an exception when matching the actuator group. Please check the network segment/subnet mask configuration of the actuator group and try again! Abnormal network segment/subnet mask: {1}"
+    }
+  },
   "nfew": {
     "wechatauthenticationinformationnotfoundexception": {
       "wechatauthenticationinformationnotfoundexception": "Enterprise WeChat authentication information not found"
@@ -4013,6 +4018,9 @@
     }
   },
   "nmtar": {
+    "deleteregionapi": {
+      "getname": "Delete Region"
+    },
     "roledeleteapi": {
       "getname": "Delete Role"
     },
@@ -4039,6 +4047,15 @@
           "isauth": "Is it certified"
         }
       }
+    },
+    "saveregionapi": {
+      "getname": "Save Region"
+    },
+    "searchregionapi": {
+      "getname": "Query Region"
+    },
+    "searchregiontreeapi": {
+      "getname": "Query Region Tree"
     }
   },
   "nmtas": {

@@ -1205,6 +1205,11 @@
       "tenantconfignotfoundexception": "配置信息：“{0}”不存在"
     }
   },
+  "nfeu": {
+    "ipsubnetmaskexception": {
+      "ipsubnetmaskexception": "ip:{0} 匹配执行器组时异常，请检查执行器组网段/子网掩码配置后，重试！异常网段/子网掩码:{1}"
+    }
+  },
   "nfew": {
     "wechatauthenticationinformationnotfoundexception": {
       "wechatauthenticationinformationnotfoundexception": "企业微信认证信息找不到"
@@ -4065,6 +4070,9 @@
     }
   },
   "nmtar": {
+    "deleteregionapi": {
+      "getname": "删除地域"
+    },
     "roledeleteapi": {
       "getname": "删除角色"
     },
@@ -4091,6 +4099,15 @@
           "isauth": "是否认证"
         }
       }
+    },
+    "saveregionapi": {
+      "getname": "保存地域"
+    },
+    "searchregionapi": {
+      "getname": "查询地域"
+    },
+    "searchregiontreeapi": {
+      "getname": "查询地域树"
     }
   },
   "nmtas": {
