@@ -4073,6 +4073,16 @@
     "deleteregionapi": {
       "getname": "删除地域"
     },
+    "deleteregionteamapi": {
+      "getname": "删除地域分组",
+      "input": {
+        "param": {
+          "desc": {
+            "teamuuidlist": "分组uuid列表"
+          }
+        }
+      }
+    },
     "roledeleteapi": {
       "getname": "删除角色"
     },
@@ -4105,6 +4115,17 @@
     },
     "searchregionapi": {
       "getname": "查询地域"
+    },
+    "searchregionteamapi": {
+      "getname": "查询地域映射分组",
+      "input": {
+        "param": {
+          "desc": {
+            "regionid": "地域id",
+            "type": "地域映射类型"
+          }
+        }
+      }
     },
     "searchregiontreeapi": {
       "getname": "查询地域树"
@@ -4276,6 +4297,11 @@
           }
         }
       }
+    }
+  },
+  "nmtc": {
+    "regiontype": {
+      "owner": "上报人"
     }
   },
   "ocommn": {

@@ -4021,6 +4021,16 @@
     "deleteregionapi": {
       "getname": "Delete Region"
     },
+    "deleteregionteamapi": {
+      "getname": "Delete Regional Grouping",
+      "input": {
+        "param": {
+          "desc": {
+            "teamuuidlist": "Group uuid list"
+          }
+        }
+      }
+    },
     "roledeleteapi": {
       "getname": "Delete Role"
     },
@@ -4053,6 +4063,17 @@
     },
     "searchregionapi": {
       "getname": "Query Region"
+    },
+    "searchregionteamapi": {
+      "getname": "Query geographical mapping grouping",
+      "input": {
+        "param": {
+          "desc": {
+            "regionid": "Regional ID",
+            "type": "Regional mapping type"
+          }
+        }
+      }
     },
     "searchregiontreeapi": {
       "getname": "Query Region Tree"
@@ -4224,6 +4245,11 @@
           }
         }
       }
+    }
+  },
+  "nmtc": {
+    "regiontype": {
+      "owner": "ReportPerson "
     }
   },
   "ocommn": {
