@@ -277,6 +277,7 @@
     "startupjob": "启动作业",
     "status": "状态",
     "statuscolor": "状态颜色",
+    "statusid": "状态id",
     "statusinfo": "状态信息",
     "statuslist": "状态列表",
     "statusname": "状态名称",
