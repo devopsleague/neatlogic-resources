@@ -3907,11 +3907,30 @@
     "formdependencytabledataupdateapi": {
       "getname": "Update the data of the form dependency matrix"
     },
+    "formexportapi": {
+      "getname": "Form export interface"
+    },
+    "formimportapi": {
+      "getname": "Form import interface",
+      "output": {
+        "param": {
+          "desc": {
+            "return": "Import Results"
+          }
+        }
+      }
+    },
     "formsaveapi": {
       "getname": "Save Form"
     },
     "formversiondeleteapi": {
       "getname": "Delete form version"
+    },
+    "formversionexportapi": {
+      "getname": "Form version export interface"
+    },
+    "formversionimportapi": {
+      "getname": "Form version import interface"
     },
     "getformattributelistapi": {
       "getname": "Query Form Property List"

@@ -3959,11 +3959,30 @@
     "formdependencytabledataupdateapi": {
       "getname": "更新表单依赖矩阵的数据"
     },
+    "formexportapi": {
+      "getname": "表单导出接口"
+    },
+    "formimportapi": {
+      "getname": "表单导入接口",
+      "output": {
+        "param": {
+          "desc": {
+            "return": "导入结果"
+          }
+        }
+      }
+    },
     "formsaveapi": {
       "getname": "保存表单"
     },
     "formversiondeleteapi": {
       "getname": "删除表单版本"
+    },
+    "formversionexportapi": {
+      "getname": "表单版本导出接口"
+    },
+    "formversionimportapi": {
+      "getname": "表单版本导入接口"
     },
     "getformattributelistapi": {
       "getname": "查询表单属性列表"
