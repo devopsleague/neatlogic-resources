@@ -1284,6 +1284,15 @@
       "viewprocesstaskdetail": "View job details"
     }
   },
+  "nfpd": {
+    "processtaskvo": {
+      "entityfield": {
+        "name": {
+          "processdispatcherlist": "Process Dispatcher List"
+        }
+      }
+    }
+  },
   "nfpec": {
     "catalognotfoundedittargetexception": {
       "catalognotfoundedittargetexception": "Service directory: {0} does not exist"
@@ -4051,6 +4060,17 @@
         }
       }
     },
+    "moveregiontreeapi": {
+      "getname": "Mobile Region Tree",
+      "input": {
+        "param": {
+          "desc": {
+            "id": "The ID of the region being moved",
+            "targetid": "Target Region ID"
+          }
+        }
+      }
+    },
     "roledeleteapi": {
       "getname": "Delete Role"
     },
@@ -4270,6 +4290,11 @@
   "nmtc": {
     "regiontype": {
       "owner": "ReportPerson "
+    }
+  },
+  "nmtwh": {
+    "regiondispatcher": {
+      "getname": "Regional grouping allocator"
     }
   },
   "ocommn": {

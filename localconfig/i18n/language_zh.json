@@ -1312,6 +1312,15 @@
       "viewprocesstaskdetail": "查看工单详情"
     }
   },
+  "nfpd": {
+    "processtaskvo": {
+      "entityfield": {
+        "name": {
+          "processdispatcherlist": "流程分派器列表"
+        }
+      }
+    }
+  },
   "nfpec": {
     "catalognotfoundedittargetexception": {
       "catalognotfoundedittargetexception": "服务目录：{0}不存在"
@@ -4103,6 +4112,17 @@
         }
       }
     },
+    "moveregiontreeapi": {
+      "getname": "移动地域树",
+      "input": {
+        "param": {
+          "desc": {
+            "id": "被移动的地域id",
+            "targetid": "目标地域id"
+          }
+        }
+      }
+    },
     "roledeleteapi": {
       "getname": "删除角色"
     },
@@ -4322,6 +4342,11 @@
   "nmtc": {
     "regiontype": {
       "owner": "上报人"
+    }
+  },
+  "nmtwh": {
+    "regiondispatcher": {
+      "getname": "地域分组分派器"
     }
   },
   "ocommn": {
