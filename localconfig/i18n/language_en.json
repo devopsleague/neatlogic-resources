@@ -1161,6 +1161,9 @@
     }
   },
   "nfet": {
+    "licenseinvalidexception": {
+      "licenseinvalidexception": "The current license lacks authorization to access module {0}, and attempts to access will be denied. Please check the license information to confirm if you should have the access permission. If it is indeed missing, please contact the manufacturer for replacement or avoid accessing any functions under this module."
+    },
     "paramirregularexception": {
       "paramirregularexception": {
         "common": "The parameter  {0}  does not meet the format requirements",

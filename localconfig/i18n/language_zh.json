@@ -1190,6 +1190,9 @@
     }
   },
   "nfet": {
+    "licenseinvalidexception": {
+      "licenseinvalidexception": "当前许可缺少访问模块 {0} 的授权，尝试访问会被拒绝。请检查许可信息，确认是否应具备该访问权限。如果确实缺少，请联系厂商更换，或者避免访问该模块下的任何功能。"
+    },
     "paramirregularexception": {
       "paramirregularexception": {
         "common": "参数“{0}”不符合格式要求",
