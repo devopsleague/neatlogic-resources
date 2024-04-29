@@ -2405,6 +2405,9 @@
     "creatediagramapi": {
       "getname": "创建架构图"
     },
+    "creatediagramlockapi": {
+      "getname": "锁定架构图"
+    },
     "deletediagramapi": {
       "getname": "删除架构图"
     },
@@ -2441,12 +2444,18 @@
     "catalogauthexception": {
       "catalogauthexception": "您没有{0}当前目录的权限"
     },
+    "diagramexistsnotendversionexception": {
+      "diagramexistsnotendversionexception": "架构图存在未完结版本，暂时不能编辑"
+    },
     "diagramisexistsexception": {
       "diagramisexistsexception": "架构图已创建"
     },
     "diagramlockirregularexception": {
       "diagramlockirregularexception": "当前架构图已被{0}锁定编辑",
       "diagramlockirregularexceptionyou": "您没有锁定当前架构图"
+    },
+    "diagramlockisexistsexception": {
+      "diagramlockisexistsexception": "当前架构图已被锁定"
     },
     "diagramversionnotfoundexception": {
       "diagramversionnotfoundexception": "当前架构图不存在{0}的版本"
