@@ -2377,6 +2377,9 @@
     "creatediagramapi": {
       "getname": "Create an architecture diagram"
     },
+    "creatediagramlockapi": {
+      "getname": "Lock Architecture Diagram"
+    },
     "deletediagramapi": {
       "getname": "Delete schema diagram"
     },
@@ -2413,12 +2416,18 @@
     "catalogauthexception": {
       "catalogauthexception": "You do not have permission to {0} the current directory"
     },
+    "diagramexistsnotendversionexception": {
+      "diagramexistsnotendversionexception": "The architecture diagram has an unfinished version and cannot be edited temporarily"
+    },
     "diagramisexistsexception": {
       "diagramisexistsexception": "Architecture diagram created"
     },
     "diagramlockirregularexception": {
       "diagramlockirregularexception": "The current architecture diagram has been locked for editing by {0}",
       "diagramlockirregularexceptionyou": "You have not locked the current architecture diagram"
+    },
+    "diagramlockisexistsexception": {
+      "diagramlockisexistsexception": "The current architecture diagram is locked"
     },
     "diagramversionnotfoundexception": {
       "diagramversionnotfoundexception": "The current architecture diagram does not have a version of {0}"
