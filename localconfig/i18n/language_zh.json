@@ -4496,7 +4496,7 @@
       "mergealias": "是否合并别名",
       "moduleid": "模块ID",
       "modulename": "模块简称",
-      "name": "配置管理模块",
+      "name": "配置管理",
       "needalias": "是否需要别名",
       "needchildren": "是否返回子模型",
       "needcirel": "是否需要返回关系路径",
@@ -4746,7 +4746,7 @@
       "isshowbaseinfo": "工单详情页是否默认展开基本信息",
       "isshowprocesstaskstepcommenteditortoolbar": "是否显示工单步骤回复富文本编辑器工具栏",
       "mobileformuitype": "移动端表单交互类型，1：下探页面；0：当前页",
-      "name": "工作流引擎模块",
+      "name": "ITSM",
       "omnipotent": "通用节点",
       "owner": "工单上报人",
       "ownercompanylist": "工单所有人的公司列表",
@@ -4795,8 +4795,8 @@
       "typepath": "知识圈分类路径"
     },
     "master": {
-      "groupname": "超级管理模块",
-      "name": "管理员模块"
+      "groupname": "租户管理",
+      "name": "租户管理"
     },
     "notify": {
       "handler": "通知策略处理器",
@@ -4840,7 +4840,7 @@
       "issueid": "任务id",
       "iterationid": "迭代id",
       "iterationname": "迭代名称",
-      "name": "研发管理模块",
+      "name": "研发管理",
       "parenttaskid": "父任务id",
       "plantimecost": "预估工时",
       "project": {
@@ -4871,7 +4871,7 @@
       "name": "tagent模块"
     },
     "tenant": {
-      "name": "租户基础功能模块"
+      "name": "系统配置"
     }
   }
 }
