@@ -3976,6 +3976,9 @@
     "integrationauditdetailgetapi": {
       "getname": "Obtain integrated management audit content"
     },
+    "integrationrunapi": {
+      "getname": "Execute Integration"
+    },
     "integrationtestapi": {
       "address": "Target address",
       "component": "assembly",

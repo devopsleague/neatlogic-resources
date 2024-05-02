@@ -4028,6 +4028,9 @@
     "integrationauditdetailgetapi": {
       "getname": "获取集成管理审计内容"
     },
+    "integrationrunapi": {
+      "getname": "执行集成"
+    },
     "integrationtestapi": {
       "address": "目标地址",
       "component": "组件",
