@@ -6,6 +6,8 @@
   "common": {
     "account": "Account",
     "action": "action",
+    "doing": "doing",
+    "done": "done",
     "actiontime": "Operation time",
     "actiontype": "Operation type",
     "actionuser": "Operator",
@@ -207,6 +209,7 @@
     "nocache": "No cache",
     "nostatus": "Stateless",
     "notifytype": "Notification Type",
+    "notstart": "Not started yet",
     "number": "number",
     "object": "Any object",
     "oldvalue": "Old value",
@@ -1302,6 +1305,9 @@
     },
     "channelnotfoundedittargetexception": {
       "channelnotfoundedittargetexception": "Service: {0} does not exist"
+    },
+    "processcommenttemplatenamerepeatexception": {
+      "processcommenttemplatenamerepeatexception": "Template \u0027{0}\u0027 already exists"
     },
     "processcommenttemplatenotfoundexception": {
       "processcommenttemplatenotfoundexception": "Reply template: {0} does not exist"

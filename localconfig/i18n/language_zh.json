@@ -6,6 +6,8 @@
   "common": {
     "account": "账号",
     "action": "动作",
+    "doing": "处理中",
+    "done": "已完成",
     "actiontime": "操作时间",
     "actiontype": "操作类型",
     "actionuser": "操作人",
@@ -207,6 +209,7 @@
     "nocache": "没有缓存",
     "nostatus": "无状态",
     "notifytype": "通知类型",
+    "notstart": "未开始",
     "number": "数字",
     "object": "任意对象",
     "oldvalue": "旧值",
@@ -1330,6 +1333,9 @@
     },
     "channelnotfoundedittargetexception": {
       "channelnotfoundedittargetexception": "服务：{0}不存在"
+    },
+    "processcommenttemplatenamerepeatexception": {
+      "processcommenttemplatenamerepeatexception": "模版“{0}”已存在"
     },
     "processcommenttemplatenotfoundexception": {
       "processcommenttemplatenotfoundexception": "回复模版：{0} 不存在"
