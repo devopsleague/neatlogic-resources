@@ -6,8 +6,6 @@
   "common": {
     "account": "Account",
     "action": "action",
-    "doing": "doing",
-    "done": "done",
     "actiontime": "Operation time",
     "actiontype": "Operation type",
     "actionuser": "Operator",
@@ -82,6 +80,8 @@
     "description": "describe",
     "displaymode": "display mode",
     "displaytype": "Display Type",
+    "doing": "doing",
+    "done": "done",
     "double": "Double-precision floating-point format",
     "dropdownlist": "Dropdown selection",
     "dslexpression": "DSL expression",
@@ -4203,6 +4203,9 @@
     },
     "savetenantconfigapi": {
       "getname": "Save current tenant configuration information"
+    },
+    "searchteamtagapi": {
+      "getname": "Get group labels"
     },
     "teamdeleteapi": {
       "getname": "Delete Group"

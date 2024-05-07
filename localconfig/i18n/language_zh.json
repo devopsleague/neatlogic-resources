@@ -6,8 +6,6 @@
   "common": {
     "account": "账号",
     "action": "动作",
-    "doing": "处理中",
-    "done": "已完成",
     "actiontime": "操作时间",
     "actiontype": "操作类型",
     "actionuser": "操作人",
@@ -82,6 +80,8 @@
     "description": "描述",
     "displaymode": "显示模式",
     "displaytype": "显示类型",
+    "doing": "处理中",
+    "done": "已完成",
     "double": "双精度浮点数",
     "dropdownlist": "下拉选择",
     "dslexpression": "dsl表达式",
@@ -4255,6 +4255,9 @@
     },
     "savetenantconfigapi": {
       "getname": "保存当前租户配置信息"
+    },
+    "searchteamtagapi": {
+      "getname": "获取分组标签"
     },
     "teamdeleteapi": {
       "getname": "删除分组"
