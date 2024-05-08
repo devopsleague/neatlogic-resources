@@ -6,8 +6,6 @@
   "common": {
     "account": "Account",
     "action": "action",
-    "doing": "doing",
-    "done": "done",
     "actiontime": "Operation time",
     "actiontype": "Operation type",
     "actionuser": "Operator",
@@ -37,6 +35,7 @@
     "bug": "defect",
     "buildinauth": "Internal verification",
     "cacheandvalid": "Cache but revalidate",
+    "canceled": "Canceled",
     "catalog": "catalogue",
     "catalogid": "Directory ID",
     "catalogname": "Directory Name",
@@ -82,6 +81,8 @@
     "description": "describe",
     "displaymode": "display mode",
     "displaytype": "Display Type",
+    "doing": "doing",
+    "done": "done",
     "double": "Double-precision floating-point format",
     "dropdownlist": "Dropdown selection",
     "dslexpression": "DSL expression",
@@ -133,6 +134,7 @@
     "groupid": "group",
     "grouplist": "Restrict interface return types",
     "handler": "Processor identification",
+    "hang": "Suspended",
     "hasmore": "Is there any more content that has not been read yet",
     "hasparent": "Do you have a parent",
     "help": "help",
@@ -237,6 +239,7 @@
     "progress": "schedule",
     "publiccache": "Public cache",
     "rangelist": "Limit the scope of interface options",
+    "rated": "Rated",
     "readonly": "read-only",
     "recall": "withdraw",
     "referencecount": "Number of references",
@@ -326,6 +329,7 @@
     "typeid": "Type ID",
     "typename": "Type Name",
     "typeuuid": "type uuid",
+    "uncommited": "Unsubmitted",
     "unique": "only",
     "uniquename": "Unique identification",
     "upwardnamelist": "Upper level name list",
@@ -3413,6 +3417,11 @@
           "desc": "List of sub work orders"
         }
       }
+    }
+  },
+  "nmpcac": {
+    "searchcollectionapi": {
+      "getname": "Search Work Order Collection"
     }
   },
   "nmpce": {
