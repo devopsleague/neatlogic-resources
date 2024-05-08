@@ -4265,6 +4265,9 @@
     "savetenantconfigapi": {
       "getname": "保存当前租户配置信息"
     },
+    "searchteamtagapi": {
+      "getname": "获取分组标签"
+    },
     "teamdeleteapi": {
       "getname": "删除分组"
     },

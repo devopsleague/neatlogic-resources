@@ -4213,6 +4213,9 @@
     "savetenantconfigapi": {
       "getname": "Save current tenant configuration information"
     },
+    "searchteamtagapi": {
+      "getname": "Get group labels"
+    },
     "teamdeleteapi": {
       "getname": "Delete Group"
     },
