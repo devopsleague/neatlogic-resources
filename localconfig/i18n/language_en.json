@@ -1180,6 +1180,15 @@
     "paramjsonirregularexception": {
       "paramjsonirregularexception": "The parameter is not in a valid JSON format"
     },
+    "paramsizetoolargeexception": {
+      "paramsizetoolargeexception": "Parameter: \"{0}\" allows a maximum length of {1}, current length: {2}"
+    },
+    "paramsizetoosmallexception": {
+      "paramsizetoosmallexception": "Parameter: \"{0}\" allows a minimum length of {1}, current length: {2}"
+    },
+    "paramvaluetooshortexception": {
+      "paramvaluetooshortexception": "Parameter: \"{0}\" allows a minimum length of {2} characters"
+    },
     "teamnamerepeatexception": {
       "teamnamerepeatexception": "Grouping: \"{0}\" already exists"
     },
@@ -4131,6 +4140,9 @@
     "saveregionapi": {
       "getname": "Save Region"
     },
+    "saveregionteamapi": {
+      "getname": "Save region and group mappings"
+    },
     "searchregionapi": {
       "getname": "Query Region"
     },
@@ -4209,6 +4221,9 @@
     },
     "listtenantconfigapi": {
       "getname": "List of current tenant configuration information"
+    },
+    "saveteamtagteamapi": {
+      "getname": "Save labels and group mappings"
     },
     "savetenantconfigapi": {
       "getname": "Save current tenant configuration information"

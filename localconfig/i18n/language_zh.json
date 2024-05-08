@@ -1209,6 +1209,15 @@
     "paramjsonirregularexception": {
       "paramjsonirregularexception": "参数不是合法的JSON格式"
     },
+    "paramsizetoolargeexception": {
+      "paramsizetoolargeexception": "参数：“{0}”允许最大长度是{1}，当前长度：{2}"
+    },
+    "paramsizetoosmallexception": {
+      "paramsizetoosmallexception": "参数：“{0}”允许最小长度是{1}，当前长度：{2}"
+    },
+    "paramvaluetooshortexception": {
+      "paramvaluetooshortexception": "参数：“{0}”允许最小长度是{2}个字符"
+    },
     "teamnamerepeatexception": {
       "teamnamerepeatexception": "分组：“{0}”已存在"
     },
@@ -4183,6 +4192,9 @@
     "saveregionapi": {
       "getname": "保存地域"
     },
+    "saveregionteamapi": {
+      "getname": "保存地域和分组映射"
+    },
     "searchregionapi": {
       "getname": "查询地域"
     },
@@ -4261,6 +4273,9 @@
     },
     "listtenantconfigapi": {
       "getname": "当前租户配置信息列表"
+    },
+    "saveteamtagteamapi": {
+      "getname": "保存标签和分组映射"
     },
     "savetenantconfigapi": {
       "getname": "保存当前租户配置信息"
