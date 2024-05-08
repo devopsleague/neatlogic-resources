@@ -4802,7 +4802,10 @@
       "name": "PBC"
     },
     "process": {
-      "isreturnallattr": "Do you want to return all attributes"
+      "channelname": "Channel name",
+      "channeluuid": "Channel uuid",
+      "isreturnallattr": "Do you want to return all attributes",
+      "phaseid": "Stage ID"
     },
     "rdm": {
       "allowimport": "Allow Import",

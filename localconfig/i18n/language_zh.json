@@ -4854,7 +4854,10 @@
       "name": "监管报送"
     },
     "process": {
-      "isreturnallattr": "是否返回所有属性"
+      "channelname": "通道名称",
+      "channeluuid": "通道uuid",
+      "isreturnallattr": "是否返回所有属性",
+      "phaseid": "阶段id"
     },
     "rdm": {
       "allowimport": "允许导入",
