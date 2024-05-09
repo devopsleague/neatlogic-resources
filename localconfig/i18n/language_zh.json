@@ -4856,8 +4856,10 @@
     "process": {
       "channelname": "通道名称",
       "channeluuid": "通道uuid",
+      "collectionid": "集合id",
       "isreturnallattr": "是否返回所有属性",
-      "phaseid": "阶段id"
+      "phaseid": "阶段id",
+      "tasklist": "工单列表"
     },
     "rdm": {
       "allowimport": "允许导入",

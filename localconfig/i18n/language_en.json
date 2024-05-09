@@ -4804,8 +4804,10 @@
     "process": {
       "channelname": "Channel name",
       "channeluuid": "Channel uuid",
+      "collectionid": "Collection ID",
       "isreturnallattr": "Do you want to return all attributes",
-      "phaseid": "Stage ID"
+      "phaseid": "Stage ID",
+      "tasklist": "Work Order List"
     },
     "rdm": {
       "allowimport": "Allow Import",
