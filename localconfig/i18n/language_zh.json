@@ -4268,11 +4268,24 @@
     }
   },
   "nmtat": {
+    "deleteteamtagapi": {
+      "getname": "删除分组标签"
+    },
     "gettenantconfigapi": {
       "getname": "获取当前租户配置信息"
     },
     "listtenantconfigapi": {
       "getname": "当前租户配置信息列表"
+    },
+    "saveteamtagapi": {
+      "getname": "保存分组标签",
+      "input": {
+        "param": {
+          "desc": {
+            "matrixattrvalue": "矩阵属性值"
+          }
+        }
+      }
     },
     "saveteamtagteamapi": {
       "getname": "保存标签和分组映射"
@@ -4722,6 +4735,8 @@
       "groupname": "系统配置",
       "integrationuuid": "集成UUID",
       "issuetime": "下发时间",
+      "matrixattr": "矩阵属性",
+      "matrixtype": "矩阵类型",
       "matrixuuid": "矩阵uuid",
       "name": "基础框架",
       "notifypolicydefaulttemplateinfo": "通知默认模板信息",

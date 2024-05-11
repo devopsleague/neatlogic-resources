@@ -4216,11 +4216,24 @@
     }
   },
   "nmtat": {
+    "deleteteamtagapi": {
+      "getname": "Delete group labels"
+    },
     "gettenantconfigapi": {
       "getname": "Obtain current tenant configuration information"
     },
     "listtenantconfigapi": {
       "getname": "List of current tenant configuration information"
+    },
+    "saveteamtagapi": {
+      "getname": "Save group labels",
+      "input": {
+        "param": {
+          "desc": {
+            "matrixattrvalue": "Matrix attribute values"
+          }
+        }
+      }
     },
     "saveteamtagteamapi": {
       "getname": "Save labels and group mappings"
@@ -4670,6 +4683,8 @@
       "groupname": "Framework",
       "integrationuuid": "Integrated UUID",
       "issuetime": "Issuance time",
+      "matrixattr": "Matrix Properties",
+      "matrixtype": "Matrix type",
       "matrixuuid": "Matrix uuid",
       "name": "Framework",
       "notifypolicydefaulttemplateinfo": "Notification default template information",
