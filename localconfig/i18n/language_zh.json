@@ -4799,6 +4799,7 @@
       "ownerinfo": "工单所有人信息",
       "ownername": "工单所有人名称",
       "owneruuid": "工单所有人uuid",
+      "previousstep": "上一步",
       "processtask": "工单",
       "processtaskformattributedata": "工单表单属性值",
       "processtaskformconfig": "工单表单信息",

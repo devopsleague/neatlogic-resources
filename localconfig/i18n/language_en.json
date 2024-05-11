@@ -4747,6 +4747,7 @@
       "ownerinfo": "Work order owner information",
       "ownername": "Work order owner name",
       "owneruuid": "Work order owner uuid",
+      "previousstep": "Previous step",
       "processtask": "Work order",
       "processtaskformattributedata": "Work Order Form Attribute Values",
       "processtaskformconfig": "Work Order Form Information",
