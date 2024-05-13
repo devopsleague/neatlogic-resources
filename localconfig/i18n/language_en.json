@@ -3342,6 +3342,9 @@
     "processgetapi": {
       "getname": "Obtain a single flowchart data interface"
     },
+    "processparamlist": {
+      "getname": "Process parameter list"
+    },
     "processsearchapi": {
       "getname": "Process List Search Interface",
       "input": {
@@ -4000,8 +4003,14 @@
     "integrationauditdetailgetapi": {
       "getname": "Obtain integrated management audit content"
     },
+    "integrationgetapi": {
+      "getname": "Get Integration Settings Information"
+    },
     "integrationrunapi": {
       "getname": "Execute Integration"
+    },
+    "integrationsearchapi": {
+      "getname": "Search Integration Configuration"
     },
     "integrationtestapi": {
       "address": "Target address",

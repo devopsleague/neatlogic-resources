@@ -3392,6 +3392,9 @@
     "processgetapi": {
       "getname": "获取单个流程图数据接口"
     },
+    "processparamlist": {
+      "getname": "流程参数列表"
+    },
     "processsearchapi": {
       "getname": "流程列表搜索接口",
       "input": {
@@ -4052,8 +4055,14 @@
     "integrationauditdetailgetapi": {
       "getname": "获取集成管理审计内容"
     },
+    "integrationgetapi": {
+      "getname": "获取集成设置信息"
+    },
     "integrationrunapi": {
       "getname": "执行集成"
+    },
+    "integrationsearchapi": {
+      "getname": "搜索集成配置"
     },
     "integrationtestapi": {
       "address": "目标地址",
