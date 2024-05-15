@@ -4295,6 +4295,16 @@
     "deleteteamtagapi": {
       "getname": "删除分组标签"
     },
+    "deleteteamtagteamapi": {
+      "getname": "删除标签分组",
+      "input": {
+        "param": {
+          "desc": {
+            "teamuuid": "分组uuid"
+          }
+        }
+      }
+    },
     "gettenantconfigapi": {
       "getname": "获取当前租户配置信息"
     },

@@ -4243,6 +4243,16 @@
     "deleteteamtagapi": {
       "getname": "Delete group labels"
     },
+    "deleteteamtagteamapi": {
+      "getname": "Delete label grouping",
+      "input": {
+        "param": {
+          "desc": {
+            "teamuuid": "Group uuid"
+          }
+        }
+      }
+    },
     "gettenantconfigapi": {
       "getname": "Obtain current tenant configuration information"
     },
