@@ -1254,6 +1254,12 @@
     }
   },
   "nffe": {
+    "formnotfoundexception": {
+      "formnotfoundexception": "表单“{0}”不存在"
+    },
+    "formversionnotfoundexception": {
+      "formversionnotfoundexception": "表单版本“{0}”不存在"
+    },
     "formversionscenenotfoundexception": {
       "formversionscenenotfoundexception": "在表单：{0}的版本：{1}中，场景：{2}不存在"
     },
@@ -2452,6 +2458,9 @@
     "gettemplatestatusapi": {
       "getname": "获取模板状态列表"
     },
+    "importtemplateapi": {
+      "getname": "导入模板"
+    },
     "listtemplateapi": {
       "getname": "获取模板列表"
     },
@@ -3482,6 +3491,12 @@
     }
   },
   "nmpcac": {
+    "getcollectionapi": {
+      "getname": "获取集合"
+    },
+    "savecollectionapi": {
+      "getname": "保存集合"
+    },
     "searchcollectionapi": {
       "getname": "搜索工单集合"
     }
@@ -4739,6 +4754,7 @@
       "documentonlineinfo": "在线帮助文档信息",
       "domain": "域名",
       "exceptionnotify": "通知异常",
+      "formdata": "表单数据",
       "formuuid": "表单uuid",
       "formversionuuid": "表单版本uuid",
       "groupname": "系统配置",
@@ -4884,6 +4900,7 @@
       "collectionid": "集合id",
       "isreturnallattr": "是否返回所有属性",
       "phaseid": "阶段id",
+      "phaselist": "阶段列表",
       "tasklist": "工单列表"
     },
     "rdm": {

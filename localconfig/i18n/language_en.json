@@ -1226,6 +1226,12 @@
     }
   },
   "nffe": {
+    "formnotfoundexception": {
+      "formnotfoundexception": "Form \u0027{0}\u0027 does not exist"
+    },
+    "formversionnotfoundexception": {
+      "formversionnotfoundexception": "Form version \u0027{0}\u0027 does not exist"
+    },
     "formversionscenenotfoundexception": {
       "formversionscenenotfoundexception": "In version: {1} of form: {0}, scenario: {2} does not exist"
     },
@@ -2424,6 +2430,9 @@
     "gettemplatestatusapi": {
       "getname": "Get template status list"
     },
+    "importtemplateapi": {
+      "getname": "Import Template"
+    },
     "listtemplateapi": {
       "getname": "Get template list"
     },
@@ -3432,6 +3441,12 @@
     }
   },
   "nmpcac": {
+    "getcollectionapi": {
+      "getname": "Get Collection"
+    },
+    "savecollectionapi": {
+      "getname": "Save Collection"
+    },
     "searchcollectionapi": {
       "getname": "Search Work Order Collection"
     }
@@ -4687,6 +4702,7 @@
       "documentonlineinfo": "Online Help Document Information",
       "domain": "domain name",
       "exceptionnotify": "Notification exception",
+      "formdata": "Form Data ",
       "formuuid": "Form uuid",
       "formversionuuid": "Form version uuid",
       "groupname": "Framework",
@@ -4832,6 +4848,7 @@
       "collectionid": "Collection ID",
       "isreturnallattr": "Do you want to return all attributes",
       "phaseid": "Stage ID",
+      "phaselist": "Stage List",
       "tasklist": "Work Order List"
     },
     "rdm": {
