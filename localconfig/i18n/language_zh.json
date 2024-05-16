@@ -3491,6 +3491,11 @@
     }
   },
   "nmpcac": {
+    "completecollectionapi": {
+      "description": {
+        "desc": "完成集合"
+      }
+    },
     "getcollectionapi": {
       "getname": "获取集合"
     },

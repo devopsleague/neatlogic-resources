@@ -3441,6 +3441,11 @@
     }
   },
   "nmpcac": {
+    "completecollectionapi": {
+      "description": {
+        "desc": "Complete Collection"
+      }
+    },
     "getcollectionapi": {
       "getname": "Get Collection"
     },
