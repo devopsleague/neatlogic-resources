@@ -548,6 +548,15 @@
     }
   },
   "nfcc": {
+    "inputfrom": {
+      "api": "Interface call",
+      "autocollect": "Automatic collection",
+      "excel": "Excel import",
+      "itsm": "Process modification",
+      "page": "Page Operations",
+      "relative": "update cascade ",
+      "unknown": "unknown"
+    },
     "userprofile": {
       "rolecreatesuccess": "Role created successfully",
       "teamcreatesuccess": "Group created successfully",

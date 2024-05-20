@@ -548,6 +548,15 @@
     }
   },
   "nfcc": {
+    "inputfrom": {
+      "api": "接口调用",
+      "autocollect": "自动采集",
+      "excel": "excel导入",
+      "itsm": "流程修改",
+      "page": "页面操作",
+      "relative": "级联更新",
+      "unknown": "未知"
+    },
     "userprofile": {
       "rolecreatesuccess": "角色创建成功",
       "teamcreatesuccess": "分组创建成功",
