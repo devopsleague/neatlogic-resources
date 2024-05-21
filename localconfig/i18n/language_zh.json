@@ -537,7 +537,7 @@
   "nfc": {
     "frameworktenantconfig": {
       "apiqps": "每秒向服务器发送的请求数量峰值（不分接口）",
-      "disabledmodulelist": "禁用的模块列表，页面将不显示被禁用的模块（多个模块请以英文逗号隔开）"
+      "disabledmodulegrouplist": "禁用的模块组列表，页面将不显示被禁用的模块（多个模块请以英文逗号隔开）"
     }
   },
   "nfcal": {
