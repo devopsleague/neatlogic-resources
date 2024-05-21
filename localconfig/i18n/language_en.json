@@ -244,6 +244,7 @@
     "recall": "withdraw",
     "referencecount": "Number of references",
     "regex": "regular expression ",
+    "region": "region",
     "reject": "Reject",
     "release": "release",
     "relname": "Relationship Name",
@@ -266,6 +267,7 @@
     "schedulejobclassinfo": "Timed Job Component Information",
     "schedulejobinfo": "Scheduled job information",
     "scoreinfo": "Rating information",
+    "select": "Dropdown box",
     "serviceid": "Service ID",
     "servicename": "service name",
     "sort": "sort",
@@ -534,7 +536,8 @@
   },
   "nfc": {
     "frameworktenantconfig": {
-      "apiqps": "Peak number of requests sent to the server per second (regardless of interface)"
+      "apiqps": "Peak number of requests sent to the server per second (regardless of interface)",
+      "disabledmodulelist": "List of disabled modules, page does not display disabled modules"
     }
   },
   "nfcal": {

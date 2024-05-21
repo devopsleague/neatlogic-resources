@@ -244,6 +244,7 @@
     "recall": "撤回",
     "referencecount": "引用数量",
     "regex": "正则表达式",
+    "region": "地域",
     "reject": "驳回",
     "release": "发布",
     "relname": "关系名称",
@@ -266,6 +267,7 @@
     "schedulejobclassinfo": "定时作业组件信息",
     "schedulejobinfo": "定时作业信息",
     "scoreinfo": "评分信息",
+    "select": "下拉框",
     "serviceid": "服务ID",
     "servicename": "服务名",
     "sort": "排序",
@@ -534,7 +536,8 @@
   },
   "nfc": {
     "frameworktenantconfig": {
-      "apiqps": "每秒向服务器发送的请求数量峰值（不分接口）"
+      "apiqps": "每秒向服务器发送的请求数量峰值（不分接口）",
+      "disabledmodulelist": "禁用的模块列表，页面将不显示被禁用的模块（多个模块请以英文逗号隔开）"
     }
   },
   "nfcal": {
