@@ -3458,6 +3458,9 @@
         "desc": "Complete Collection"
       }
     },
+    "deletetemplateapi": {
+      "getname": "Delete Collection Template"
+    },
     "getcollectionapi": {
       "getname": "Get Collection"
     },
