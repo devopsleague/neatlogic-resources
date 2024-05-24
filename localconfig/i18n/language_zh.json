@@ -3511,8 +3511,14 @@
     "getcollectionapi": {
       "getname": "获取集合"
     },
+    "getcollectiontemplateapi": {
+      "getname": "获取集合模板信息"
+    },
     "savecollectionapi": {
       "getname": "保存集合"
+    },
+    "savecollectiontemplateapi": {
+      "getname": "保存集合模板"
     },
     "searchcollectionapi": {
       "getname": "搜索工单集合"

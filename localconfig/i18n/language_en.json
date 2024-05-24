@@ -3461,8 +3461,14 @@
     "getcollectionapi": {
       "getname": "Get Collection"
     },
+    "getcollectiontemplateapi": {
+      "getname": "Get collection template information"
+    },
     "savecollectionapi": {
       "getname": "Save Collection"
+    },
+    "savecollectiontemplateapi": {
+      "getname": "Save Collection Template"
     },
     "searchcollectionapi": {
       "getname": "Search Work Order Collection"
