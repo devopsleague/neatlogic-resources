@@ -1973,6 +1973,16 @@
     "listcicatalogfortreeapi": {
       "getname": "获取模型目录树形列表"
     },
+    "listcientitydataforselectapi": {
+      "getname": "查询模型配置项数据（下拉框）",
+      "input": {
+        "param": {
+          "desc": {
+            "elementid": "属性｜关系｜固化属性"
+          }
+        }
+      }
+    },
     "listcientityforselectapi": {
       "description": {
         "desc": "查询资源中心状态列表"

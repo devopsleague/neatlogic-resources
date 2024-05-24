@@ -1945,6 +1945,16 @@
     "listcicatalogfortreeapi": {
       "getname": "Get the model directory tree list"
     },
+    "listcientitydataforselectapi": {
+      "getname": "Query Model Configuration Item Data (Dropdown Box)",
+      "input": {
+        "param": {
+          "desc": {
+            "elementid": "Attribute | Relationship | Fixed Attribute"
+          }
+        }
+      }
+    },
     "listcientityforselectapi": {
       "description": {
         "desc": "Query Content Center Status List"
