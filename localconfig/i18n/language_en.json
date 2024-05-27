@@ -1360,6 +1360,11 @@
       "scoretemplatenotfoundexception": "Rating template: {0} does not exist"
     }
   },
+  "nfpwtp": {
+    "fieldenum": {
+      "type": "Source type"
+    }
+  },
   "nfral": {
     "priority_manage": {
       "getauthdisplayname": "Priority management permissions",
