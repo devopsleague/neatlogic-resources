@@ -1231,6 +1231,9 @@
     "paramsizetoosmallexception": {
       "paramsizetoosmallexception": "参数：“{0}”允许最小长度是{1}，当前长度：{2}"
     },
+    "paramtransferexception": {
+      "paramtransferexception": "输入参数转换异常：{0}"
+    },
     "paramvaluetooshortexception": {
       "paramvaluetooshortexception": "参数：“{0}”允许最小长度是{2}个字符"
     },

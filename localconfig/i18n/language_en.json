@@ -1202,6 +1202,9 @@
     "paramsizetoosmallexception": {
       "paramsizetoosmallexception": "Parameter: \"{0}\" allows a minimum length of {1}, current length: {2}"
     },
+    "paramtransferexception": {
+      "paramtransferexception": "Input parameter conversion exception: {0}"
+    },
     "paramvaluetooshortexception": {
       "paramvaluetooshortexception": "Parameter: \"{0}\" allows a minimum length of {2} characters"
     },
