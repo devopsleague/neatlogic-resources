@@ -4907,6 +4907,7 @@
       "isreturnallattr": "Do you want to return all attributes",
       "phaseid": "Stage ID",
       "phaselist": "Stage List",
+      "processtaskcollection": "Work Order Collection",
       "tasklist": "Work Order List"
     },
     "rdm": {

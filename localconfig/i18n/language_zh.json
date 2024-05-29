@@ -4959,6 +4959,7 @@
       "isreturnallattr": "是否返回所有属性",
       "phaseid": "阶段id",
       "phaselist": "阶段列表",
+      "processtaskcollection": "工单集合",
       "tasklist": "工单列表"
     },
     "rdm": {
