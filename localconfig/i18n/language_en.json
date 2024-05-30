@@ -2799,8 +2799,21 @@
     }
   },
   "nmdaae": {
+    "listdeployappconfigenvattrapi": {
+      "getname": "Query application environment properties",
+      "input": {
+        "param": {
+          "desc": {
+            "keylist": "Key List"
+          }
+        }
+      }
+    },
     "savedeployappconfigenvapi": {
       "getname": "Save the application system environment for publishing application configurations"
+    },
+    "savedeployappconfigenvattrapi": {
+      "getname": "Save application environment properties"
     }
   },
   "nmdaam": {
