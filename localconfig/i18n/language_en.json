@@ -2293,6 +2293,9 @@
       "getname": "Search Topology View"
     }
   },
+  "nmcah": {
+    "transactionauditcleaner": "AuditCleanerBase"
+  },
   "nmcar": {
     "deletereltypeapi": {
       "getname": "Delete model relationship type"

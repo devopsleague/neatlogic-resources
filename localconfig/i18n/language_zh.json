@@ -2321,6 +2321,9 @@
       "getname": "搜索拓扑视图"
     }
   },
+  "nmcah": {
+    "transactionauditcleaner": "AuditCleanerBase"
+  },
   "nmcar": {
     "deletereltypeapi": {
       "getname": "删除模型关系类型"
