@@ -2372,6 +2372,9 @@
     }
   },
   "nmcarr": {
+    "resourcelistapi": {
+      "getname": "查询资源中心数据列表"
+    },
     "resourcetypetreeapi": {
       "getname": "查询资源类型树列表"
     },
@@ -4602,6 +4605,7 @@
       "attridlist": "模型属性ID列表",
       "attrtype": "属性类型",
       "autoexec": "自动化操作",
+      "batchsearchlist": "批量搜索值",
       "batchtag": "批量标签",
       "cientitydata": "配置项数据",
       "cientityid": "配置项id",
@@ -4613,6 +4617,7 @@
       "cilist": "模型列表",
       "ciname": "模型名称",
       "ciuniquename": "模型唯一标识",
+      "cmdbgrouptype": "通过团体过滤权限",
       "collectionlist": "集合列表",
       "collectionname": "集合名称",
       "collectionobjlist": "集合对象列表",
@@ -4675,6 +4680,7 @@
       "rootciid": "根模型id",
       "rootciname": "根模型名称",
       "ruleid": "规则id",
+      "searchfield": "批量搜索字段",
       "sourcerelid": "来源关系id",
       "startciid": "起始模型id",
       "stateidlist": "状态id列表",
