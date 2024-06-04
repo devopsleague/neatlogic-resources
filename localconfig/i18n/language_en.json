@@ -2344,6 +2344,9 @@
     }
   },
   "nmcarr": {
+    "resourcelistapi": {
+      "getname": "Query Resource Center Data List"
+    },
     "resourcetypetreeapi": {
       "getname": "Query Resource Type Tree List"
     },
@@ -4550,6 +4553,7 @@
       "attridlist": "Model Attribute ID List",
       "attrtype": "Attribute Type",
       "autoexec": "Automated operations",
+      "batchsearchlist": "Batch search values",
       "batchtag": "Batch labels",
       "cientitydata": "Configuration Item Data",
       "cientityid": "Configuration Item ID",
@@ -4561,6 +4565,7 @@
       "cilist": "Model List",
       "ciname": "Model Name",
       "ciuniquename": "Model Unique Identification",
+      "cmdbgrouptype": "Filter permissions through groups",
       "collectionlist": "Collection List",
       "collectionname": "Collection Name",
       "collectionobjlist": "Collection Object List",
@@ -4623,6 +4628,7 @@
       "rootciid": "Root Model ID",
       "rootciname": "Root Model Name",
       "ruleid": "Rule ID",
+      "searchfield": "Batch search fields",
       "sourcerelid": "Source Relationship ID",
       "startciid": "Starting Model ID",
       "stateidlist": "Status ID List",
