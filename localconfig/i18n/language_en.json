@@ -660,7 +660,8 @@
       "globalattrisinusedexception": "The current attribute is in use and cannot be deleted"
     },
     "globalattrvalueirregularexception": {
-      "globalattrvalueirregularexception": "The value \u0027{2}\u0027 of global attribute \u0027{0} ({1})\u0027 is illegal"
+      "globalattrvalueirregularexception": "The value \u0027{2}\u0027 of global attribute \u0027{0} ({1})\u0027 is illegal",
+      "globalattrvalueirregularexception_b": "The value \"{4}\" of the global attribute \"{2} {3}\" in model \"{0} {1}\" is illegal. Configuration path: {5}, actual path: {6}"
     },
     "graphisinvokedexception": {
       "graphisinvokedexception": "The current view is already referenced by another view, please delete it first"
