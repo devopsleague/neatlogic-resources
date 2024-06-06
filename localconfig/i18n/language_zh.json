@@ -660,7 +660,8 @@
       "globalattrisinusedexception": "当前属性正在使用中，不能删除"
     },
     "globalattrvalueirregularexception": {
-      "globalattrvalueirregularexception": "全局属性“{0}({1})”的值“{2}”是不合法的"
+      "globalattrvalueirregularexception": "全局属性“{0}({1})”的值“{2}”是不合法的",
+      "globalattrvalueirregularexception_b": "模型“{0}{1}”全局属性“{2}{3}”的值“{4}”是不合法的，配置路径：{5}，实际路径：{6}"
     },
     "graphisinvokedexception": {
       "graphisinvokedexception": "当前视图已被其他视图引用，请先删除"
