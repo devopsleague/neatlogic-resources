@@ -4735,7 +4735,8 @@
       },
       "templatelist": "Template List",
       "typelist": "Type List",
-      "versionidlist": "Version ID list"
+      "versionidlist": "Version ID list",
+      "widgetid": "Element ID"
     },
     "dr": {
       "customparamlist": "Custom Parameter List",

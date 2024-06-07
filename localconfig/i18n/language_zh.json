@@ -4787,7 +4787,8 @@
       },
       "templatelist": "模板列表",
       "typelist": "类型列表",
-      "versionidlist": "版本id列表"
+      "versionidlist": "版本id列表",
+      "widgetid": "图元id"
     },
     "dr": {
       "customparamlist": "自定义参数列表",
