@@ -4148,7 +4148,11 @@
       "getname": "Export matrix data"
     },
     "matriximportapi": {
-      "getname": "Import matrix data"
+      "getname": "Import matrix data",
+      "mydoservice": {
+        "filevalidtip": "The following problem occurred while importing [{0}]:",
+        "validtip": "The value in row {0} and column {1} is illegal: \"{2}\""
+      }
     },
     "matrixsaveapi": {
       "getname": "Save Matrix"
