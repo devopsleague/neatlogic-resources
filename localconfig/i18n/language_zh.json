@@ -4203,6 +4203,7 @@
       "getname": "导入矩阵数据",
       "mydoservice": {
         "filevalidtip": "导入【{0}】时出现如下问题：",
+        "validrepeattip": "第{0}行，第{1}列的值：“{2}”匹配到多条数据",
         "validtip": "第{0}行，第{1}列的值：”{2}“不存在"
       }
     },

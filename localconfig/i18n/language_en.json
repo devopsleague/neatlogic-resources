@@ -4151,6 +4151,7 @@
       "getname": "Import matrix data",
       "mydoservice": {
         "filevalidtip": "The following problem occurred while importing [{0}]:",
+        "validrepeattip": "The value of \"{2}\" in row {0} and column {1} matches multiple pieces of data",
         "validtip": "The value in row {0} and column {1} is not exist: \"{2}\""
       }
     },
