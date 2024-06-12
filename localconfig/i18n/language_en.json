@@ -939,6 +939,12 @@
     }
   },
   "nfde": {
+    "deployjobnotfoundexception": {
+      "deployjobnotfoundexception": {
+        "appmodule": "The {1} module under {0} has not executed any jobs yet",
+        "autoexecjobid": "According to automated job ID: {0}, the publishing job ID cannot be found"
+      }
+    },
     "documentonlinenotfoundexception": {
       "documentonlinenotfoundexception": "Online help document: {0} does not exist"
     },

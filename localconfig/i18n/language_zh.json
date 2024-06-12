@@ -961,6 +961,12 @@
     }
   },
   "nfde": {
+    "deployjobnotfoundexception": {
+      "deployjobnotfoundexception": {
+        "appmodule": "{0}下的{1}模块尚未执行过任何作业",
+        "autoexecjobid": "根据自动化作业id:{0},找不到发布作业id"
+      }
+    },
     "documentonlinenotfoundexception": {
       "documentonlinenotfoundexception": "在线帮助文档：“{0}”不存在"
     },
