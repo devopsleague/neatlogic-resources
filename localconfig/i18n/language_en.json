@@ -3456,6 +3456,9 @@
     "processtaskrepeatsaveapi": {
       "getname": "Mark duplicate work order interface"
     },
+    "processtaskstartapi": {
+      "getname": "Start work order steps"
+    },
     "processtaskstepdraftsaveapi": {
       "getname": "Work order step temporary storage interface"
     },
@@ -3464,6 +3467,9 @@
         "desc": "Interface for obtaining basic information of work order steps, including current step name, activation time, status, handler, assistance handler, processing time, form attribute display control, etc"
       },
       "getname": "Interface for obtaining basic information of work order steps"
+    },
+    "processtaskstepstartifnecessaryapi": {
+      "getname": "If necessary, start the work order steps"
     }
   },
   "nmpas": {
