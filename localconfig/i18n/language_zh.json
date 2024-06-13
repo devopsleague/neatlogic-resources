@@ -3506,6 +3506,9 @@
     "processtaskrepeatsaveapi": {
       "getname": "标记重复工单接口"
     },
+    "processtaskstartapi": {
+      "getname": "开始工单步骤"
+    },
     "processtaskstepdraftsaveapi": {
       "getname": "工单步骤暂存接口"
     },
@@ -3514,6 +3517,9 @@
         "desc": "工单步骤基本信息获取接口，当前步骤名称、激活时间、状态、处理人、协助处理人、处理时效、表单属性显示控制等"
       },
       "getname": "工单步骤基本信息获取接口"
+    },
+    "processtaskstepstartifnecessaryapi": {
+      "getname": "如果需要，开始工单步骤"
     }
   },
   "nmpas": {
