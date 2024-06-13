@@ -4722,6 +4722,7 @@
       "currentversion": "current version",
       "diagramid": "Architecture diagram ID",
       "diagramname": "Architecture diagram name",
+      "dynamicwidgetlist": "Dynamic component list",
       "editlock": "Edit lock",
       "editversion": "Edit version",
       "editversiondata": "Edit version data",

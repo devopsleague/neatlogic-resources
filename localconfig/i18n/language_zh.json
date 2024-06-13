@@ -4774,6 +4774,7 @@
       "currentversion": "当前版本",
       "diagramid": "架构图id",
       "diagramname": "架构图名称",
+      "dynamicwidgetlist": "动态组件列表",
       "editlock": "编辑锁",
       "editversion": "编辑版本",
       "editversiondata": "编辑版本数据",
