@@ -4130,6 +4130,9 @@
     "getformattributelistapi": {
       "getname": "查询表单属性列表"
     },
+    "listformtagapi": {
+      "getname": "表单扩展数据标签列表"
+    },
     "saveformversiondefaultsceneapi": {
       "getname": "设置表单版本默认场景"
     },
