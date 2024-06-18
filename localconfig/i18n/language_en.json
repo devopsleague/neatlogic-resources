@@ -4078,6 +4078,9 @@
     "getformattributelistapi": {
       "getname": "Query Form Property List"
     },
+    "listformtagapi": {
+      "getname": "Form Extended Data Label List"
+    },
     "saveformversiondefaultsceneapi": {
       "getname": "Set the default scenario for form version"
     },
