@@ -3478,6 +3478,47 @@
     }
   },
   "nmpaw": {
+    "deleteworkcentertheadapi": {
+      "getname": "Delete user-defined header data interface in the work order center"
+    },
+    "editworkcenterapi": {
+      "getname": "Modify Work Order Center Classification",
+      "input": {
+        "param": {
+          "desc": {
+            "catalogname": "Menu classification",
+            "isshowtotal": "Whether to display the total number, default to 0: display the number of pending tasks",
+            "name": "Classification name",
+            "workcentertheadlist": "Default header"
+          }
+        }
+      }
+    },
+    "listworkcentertheadapi": {
+      "getname": "Interface for obtaining the work order center classification header list",
+      "output": {
+        "param": {
+          "desc": "Table header list"
+        }
+      }
+    },
+    "saveworkcentertheadapi": {
+      "description": {
+        "desc": "The work order center topic save interface is used for users to customize the display and sorting of saved fields"
+      },
+      "getname": "Work Order Center Thead User Defined Save Interface",
+      "input": {
+        "param": {
+          "desc": {
+            "isshow": "Is the field displayed",
+            "name": "Field Name",
+            "sort": "field order",
+            "type": "Field type",
+            "width": "Field width"
+          }
+        }
+      }
+    },
     "searchworkcenterapi": {
       "description": {
         "desc": "Work Order Center Search Interface"

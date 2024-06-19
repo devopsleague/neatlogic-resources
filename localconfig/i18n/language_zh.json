@@ -3528,6 +3528,47 @@
     }
   },
   "nmpaw": {
+    "deleteworkcentertheadapi": {
+      "getname": "删除工单中心用户自定义表头数据接口"
+    },
+    "editworkcenterapi": {
+      "getname": "修改工单中心分类",
+      "input": {
+        "param": {
+          "desc": {
+            "catalogname": "菜单分类",
+            "isshowtotal": "是否显示总数，默认0：显示待办数",
+            "name": "分类名",
+            "workcentertheadlist": "默认表头"
+          }
+        }
+      }
+    },
+    "listworkcentertheadapi": {
+      "getname": "获取工单中心分类表头列表接口",
+      "output": {
+        "param": {
+          "desc": "表头列表"
+        }
+      }
+    },
+    "saveworkcentertheadapi": {
+      "description": {
+        "desc": "工单中心thead保存接口，用于用户自定义保存字段显示与排序"
+      },
+      "getname": "工单中心thead用户自定义保存接口",
+      "input": {
+        "param": {
+          "desc": {
+            "isshow": "字段是否展示",
+            "name": "字段名",
+            "sort": "字段排序",
+            "type": "字段类型",
+            "width": "字段宽度"
+          }
+        }
+      }
+    },
     "searchworkcenterapi": {
       "description": {
         "desc": "工单中心搜索接口"
