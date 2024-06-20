@@ -3552,6 +3552,18 @@
         }
       }
     },
+    "saveworkcenterapi": {
+      "getname": "工单中心分类保存接口",
+      "input": {
+        "param": {
+          "desc": {
+            "authlist": "授权列表，如果type是system,则必填",
+            "conditionconfig": "分类过滤配置，json格式",
+            "type": "分类类型"
+          }
+        }
+      }
+    },
     "saveworkcentertheadapi": {
       "description": {
         "desc": "工单中心thead保存接口，用于用户自定义保存字段显示与排序"

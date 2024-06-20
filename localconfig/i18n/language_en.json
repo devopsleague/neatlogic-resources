@@ -3502,6 +3502,18 @@
         }
       }
     },
+    "saveworkcenterapi": {
+      "getname": "Work Order Center Classification Save Interface",
+      "input": {
+        "param": {
+          "desc": {
+            "authlist": "Authorization list, mandatory if type is system",
+            "conditionconfig": "Classification filtering configuration, JSON format",
+            "type": "Classification type"
+          }
+        }
+      }
+    },
     "saveworkcentertheadapi": {
       "description": {
         "desc": "The work order center topic save interface is used for users to customize the display and sorting of saved fields"
