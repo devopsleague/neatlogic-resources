@@ -762,8 +762,8 @@
   },
   "nfda": {
     "app_config_modify": {
-      "getauthdisplayname": "应用配置维护权限",
-      "getauthintroduction": "查看应用配置、添加应用、修改有数据权限中编辑配置权限的应用配置"
+      "getauthdisplayname": "发布应用配置维护权限",
+      "getauthintroduction": "查看发布应用配置"
     },
     "app_config_modify_share": {
       "getauthdisplayname": "应用配置维护权限(后台专用)",
@@ -774,8 +774,8 @@
       "getauthintroduction": "查看发布模块"
     },
     "deploy_modify": {
-      "getauthdisplayname": "自动发布管理权限",
-      "getauthintroduction": "自动发布全局参数管理、场景定义"
+      "getauthdisplayname": "发布管理权限",
+      "getauthintroduction": "发布全局参数管理、场景定义"
     }
   },
   "nfdal": {
@@ -784,6 +784,19 @@
     }
   },
   "nfdc": {
+    "deployappconfigaction": {
+      "auth": "权限",
+      "authdesc": "可以查看应用(一键发布、应用配置), 权限的添加、编辑和删除(应用配置)",
+      "edit": "编辑配置",
+      "editdesc": "可以查看应用(一键发布、应用配置)、执行创建作业(一键发布)、编辑除了“权限”的其他功能(应用配置)",
+      "execute": "执行",
+      "executedesc": "可以查看应用(一键发布、应用配置)、执行创建作业(一键发布)",
+      "pipeline": "超级流水线",
+      "versionandproductmanager": "版本\u0026制品管理",
+      "versionandproductmanagerdesc": "可以查看应用(版本中心),版本中心可以添加版本和管理制品",
+      "view": "查看配置",
+      "viewdesc": "可以查看应用(一键发布、应用配置)"
+    },
     "deploytenantconfig": {
       "gitlabwebhookcallbackhost": "gitlab webhook回调主机地址"
     }

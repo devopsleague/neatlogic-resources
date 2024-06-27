@@ -762,6 +762,19 @@
     }
   },
   "nfdc": {
+    "deployappconfigaction": {
+      "auth": "jurisdiction",
+      "authdesc": "Permission addition, editing, and deletion (application configuration)",
+      "edit": "Edit Configuration",
+      "editdesc": "Application configuration permissions allow for viewing applications (one click publishing, application configuration), executing job creation (one click publishing), and editing other functions besides \"permissions\" (application configuration)",
+      "execute": "implement",
+      "executedesc": "Can view applications (one click publishing, application configuration) and execute creation tasks (one click publishing)",
+      "pipeline": "Super assembly line",
+      "versionandproductmanager": "Version\u0026Product Management",
+      "versionandproductmanagerdesc": "You can view the application (version center), which allows you to add versions and manage artifacts",
+      "view": "View configuration",
+      "viewdesc": "Application viewing permission, can view applications (one click publishing, application configuration)"
+    },
     "deploytenantconfig": {
       "gitlabwebhookcallbackhost": "Gitlab webhook callback host address"
     }
