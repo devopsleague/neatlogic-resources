@@ -1646,6 +1646,11 @@
       "getname": "Callback update job status"
     }
   },
+  "nmaap": {
+    "createjobsteptestapi": {
+      "getname": "Test new automation nodes"
+    }
+  },
   "nmaar": {
     "autoexecrisksaveapi": {
       "getname": "Save Operation Level"
