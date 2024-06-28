@@ -1674,6 +1674,11 @@
       "getname": "回调更新作业状态"
     }
   },
+  "nmaap": {
+    "createjobsteptestapi": {
+      "getname": "测试新自动化节点"
+    }
+  },
   "nmaar": {
     "autoexecrisksaveapi": {
       "getname": "保存操作级别"
