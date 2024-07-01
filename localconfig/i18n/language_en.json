@@ -1372,6 +1372,13 @@
     }
   },
   "nfpep": {
+    "processconfigexception": {
+      "condition": "There is an invalid step in the conditional flow rule setting of step {0}",
+      "copy": "Allocation handler for step {0} - Copy pre step handler - Invalid step in pre step",
+      "prestepassign": "Allocation handler for step {0} - specified by pre step handler - invalid step in pre step",
+      "prestepassignconditionstep": "Allocation handler for step {0} - specified by pre step handler - pre step - invalid step in conditional path",
+      "sla": "There is an invalid step in the associated step of timeliness setting - {0}"
+    },
     "processnotfoundedittargetexception": {
       "processnotfoundedittargetexception": "Process: {0} does not exist"
     },

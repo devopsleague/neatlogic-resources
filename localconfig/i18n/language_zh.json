@@ -1400,6 +1400,13 @@
     }
   },
   "nfpep": {
+    "processconfigexception": {
+      "condition": "{0}步骤的条件流转规则设置中存在无效的步骤",
+      "copy": "{0}步骤的分配处理人-复制前置步骤处理人-前置步骤中存在无效的步骤",
+      "prestepassign": "{0}步骤的分配处理人-由前置步骤处理人指定-前置步骤中存在无效的步骤",
+      "prestepassignconditionstep": "{0}步骤的分配处理人-由前置步骤处理人指定-前置步骤-条件路径中存在无效的步骤",
+      "sla": "时效设置-{0}时效的关联步骤中存在无效的步骤"
+    },
     "processnotfoundedittargetexception": {
       "processnotfoundedittargetexception": "流程：{0}不存在"
     },
