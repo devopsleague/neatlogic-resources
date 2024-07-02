@@ -1588,6 +1588,13 @@
       "getname": "Save Custom Template"
     }
   },
+  "nmaah": {
+    "autoexecjobcleaner": {
+      "myclean": {
+        "error": "Clearing homework exception: {0}: {1}"
+      }
+    }
+  },
   "nmaaj": {
     "autoexecjobinfogetapi": {
       "getname": "Obtain automation job details"

@@ -1616,6 +1616,13 @@
       "getname": "保存自定义模板"
     }
   },
+  "nmaah": {
+    "autoexecjobcleaner": {
+      "myclean": {
+        "error": "清除作业异常：{0}: {1}"
+      }
+    }
+  },
   "nmaaj": {
     "autoexecjobinfogetapi": {
       "getname": "获取自动化作业详情"
