@@ -692,6 +692,11 @@
     "reltypenotfoundexception": {
       "reltypenotfoundexception": "关系类型：{0} 不存在"
     },
+    "resourcecenteraccountprotocolnotfoundexception": {
+      "resourcecenteraccountprotocolnotfoundexception": {
+        "id": "协议：{0}不存在"
+      }
+    },
     "resourcecenterviewconfigexception": {
       "resourcecenterviewconfigexception": "视图{0}中声明字段：{1}，但在配置文件中没有找到定义"
     },
@@ -1581,6 +1586,14 @@
       "runscriptoncewithjdbc": {
         "failed": " 执行失败，请检查核对最新的数据库表schema",
         "tenantnotconnect": "无法连接租户库 neatlogic_{0}，请到 neatlogic 库中的 datasource 表确认 {0} 租户的username、password、host、port字段是否正确。"
+      }
+    }
+  },
+  "nfte": {
+    "tagentaccountnotfoundexception": {
+      "tagentaccountnotfoundexception": {
+        "id": "根据tagent账号id(“{0}”)找不到tagent账号",
+        "ipport": "根据tagent的ip:{0},port:{1}找不到tagent账号"
       }
     }
   },
