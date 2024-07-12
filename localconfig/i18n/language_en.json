@@ -541,7 +541,8 @@
   "nfc": {
     "frameworktenantconfig": {
       "apiqps": "Peak number of requests sent to the server per second (regardless of interface)",
-      "disabledmodulegrouplist": "List of disabled module groups, page does not display disabled modules"
+      "disabledmodulegrouplist": "List of disabled module groups, page does not display disabled modules",
+      "mobilefiledownloadenabled": "Do you allow mobile devices to download attachments"
     }
   },
   "nfcal": {
