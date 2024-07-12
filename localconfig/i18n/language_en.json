@@ -540,6 +540,7 @@
   },
   "nfc": {
     "frameworktenantconfig": {
+      "allowmobiledownloadfile": "Do you allow mobile devices to download attachments",
       "apiqps": "Peak number of requests sent to the server per second (regardless of interface)",
       "disabledmodulegrouplist": "List of disabled module groups, page does not display disabled modules"
     }
