@@ -26,6 +26,7 @@
     "auth": "授权",
     "authidlist": "授权id列表",
     "authlist": "授权列表",
+    "authoritylist": "授权对象",
     "authtype": "授权类型",
     "authuuid": "授权对象uuid",
     "avatar": "头像",
@@ -74,6 +75,7 @@
     "date": "日期",
     "datetime": "日期时间",
     "defaultexpression": "默认表达式",
+    "defaultpriorityuuid": "默认优先级uuid",
     "defaultvalue": "默认值列表",
     "defaultvaluelist": "用于回显的参数列表",
     "delaytime": "延迟时间",
@@ -269,10 +271,12 @@
     "schedule": "定时任务",
     "schedulejobclassinfo": "定时作业组件信息",
     "schedulejobinfo": "定时作业信息",
+    "scopeofuse": "使用范围",
     "scoreinfo": "评分信息",
     "select": "下拉框",
     "serviceid": "服务ID",
     "servicename": "服务名",
+    "sla": "时效",
     "sort": "排序",
     "source": "来源",
     "sourcelist": "来源列表",
@@ -1383,6 +1387,12 @@
     }
   },
   "nfpd": {
+    "channelvo": {
+      "effectiveauthority": "是否有上报权限",
+      "parentnames": "服务所有父目录名，逗号隔开",
+      "parentuuids": "服务所有父目录uuid，逗号隔开",
+      "typeanduuid": "类型#uuid"
+    },
     "processtaskvo": {
       "entityfield": {
         "name": {
@@ -3446,6 +3456,9 @@
     "channelgetapi": {
       "getname": "获取服务通道信息"
     },
+    "channelsaveapi": {
+      "getname": "保存服务信息"
+    },
     "channelsearchapi": {
       "getname": "服务通道搜索接口",
       "input": {
@@ -5009,6 +5022,7 @@
       "channelinfo": "服务信息",
       "channelname": "服务名称",
       "channelpath": "服务路径",
+      "channeltype": "服务类型",
       "channeltypeinfo": "服务类型信息",
       "channeltypename": "服务类型名称",
       "channeltyperelationid": "关系类型id",
@@ -5017,6 +5031,7 @@
       "channeluuid": "服务uuid",
       "commentlist": "评论附件列表",
       "condition": "条件",
+      "contenthelp": "工单上报页描述占位符",
       "copyprocesstaskid": "复制工单id",
       "currentprocesstaskid": "当前工单id",
       "currentprocesstaskstep": "工单当前步骤信息",

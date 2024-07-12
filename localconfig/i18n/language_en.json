@@ -26,6 +26,7 @@
     "auth": "authorization",
     "authidlist": "Authorization ID List",
     "authlist": "Authorization List",
+    "authoritylist": "Authorized object",
     "authtype": "Authorization Type",
     "authuuid": "Authorized object uuid",
     "avatar": "Avatar",
@@ -74,6 +75,7 @@
     "date": "date",
     "datetime": "Date Time",
     "defaultexpression": "Default expression",
+    "defaultpriorityuuid": "Default priority uuid",
     "defaultvalue": "Default Value List",
     "defaultvaluelist": "List of parameters for echo",
     "delaytime": "delay time ",
@@ -269,10 +271,12 @@
     "schedule": "Scheduled Tasks",
     "schedulejobclassinfo": "Timed Job Component Information",
     "schedulejobinfo": "Scheduled job information",
+    "scopeofuse": "Scope of use",
     "scoreinfo": "Rating information",
     "select": "Dropdown box",
     "serviceid": "Service ID",
     "servicename": "service name",
+    "sla": "prescription",
     "sort": "sort",
     "source": "source",
     "sourcelist": "Source List",
@@ -1355,6 +1359,12 @@
     }
   },
   "nfpd": {
+    "channelvo": {
+      "effectiveauthority": "Do you have reporting authority",
+      "parentnames": "Service all parent directory names, separated by commas",
+      "parentuuids": "Service all parent directory uuids, separated by commas",
+      "typeanduuid": "Type # uuid"
+    },
     "processtaskvo": {
       "entityfield": {
         "name": {
@@ -3396,6 +3406,9 @@
     "channelgetapi": {
       "getname": "Service channel obtaining information"
     },
+    "channelsaveapi": {
+      "getname": "Save service information"
+    },
     "channelsearchapi": {
       "getname": "Service channel search interface",
       "input": {
@@ -4957,6 +4970,7 @@
       "channelinfo": "Service Information",
       "channelname": "Service Name",
       "channelpath": "Service Path",
+      "channeltype": "Service type",
       "channeltypeinfo": "Service Type Information",
       "channeltypename": "Service Type Name",
       "channeltyperelationid": "Relationship type ID",
@@ -4965,6 +4979,7 @@
       "channeluuid": "Service uuid",
       "commentlist": "Comment Attachment List",
       "condition": "condition",
+      "contenthelp": "Job Order Submission Page Description Placeholder",
       "copyprocesstaskid": "Copy job ID",
       "currentprocesstaskid": "Current job ID",
       "currentprocesstaskstep": "Current step information of the work order",
