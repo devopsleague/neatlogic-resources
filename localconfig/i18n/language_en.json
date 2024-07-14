@@ -1685,6 +1685,22 @@
     }
   },
   "nmaap": {
+    "autoexecprofilesaveapi": {
+      "description": {
+        "desc": "Automated tool profile saving interface"
+      },
+      "getname": "Save automation tool profile",
+      "input": {
+        "param": {
+          "desc": {
+            "argumentlist": "Free parameter list",
+            "fomsystemid": "System ID",
+            "operationlist": "List of associated tools and scripts",
+            "paramlist": "Tool parameters"
+          }
+        }
+      }
+    },
     "createjobsteptestapi": {
       "getname": "Test new automation nodes"
     }

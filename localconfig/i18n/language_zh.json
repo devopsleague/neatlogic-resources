@@ -1713,6 +1713,22 @@
     }
   },
   "nmaap": {
+    "autoexecprofilesaveapi": {
+      "description": {
+        "desc": "自动化工具profile保存接口"
+      },
+      "getname": "保存自动化工具profile",
+      "input": {
+        "param": {
+          "desc": {
+            "argumentlist": "自由参数列表",
+            "fomsystemid": "所属系统id",
+            "operationlist": "关联的工具和脚本列表",
+            "paramlist": "工具参数"
+          }
+        }
+      }
+    },
     "createjobsteptestapi": {
       "getname": "测试新自动化节点"
     }
