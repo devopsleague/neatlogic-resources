@@ -330,6 +330,7 @@
     "time": "time",
     "timecost": "time consuming",
     "timeoutpoint": "Time out point",
+    "timeunit": "Time unit",
     "title": "title",
     "toomanyoption": "Too many options, other options will not be displayed",
     "trigger": "Trigger point",
@@ -546,6 +547,8 @@
     "frameworktenantconfig": {
       "apiqps": "Peak number of requests sent to the server per second (regardless of interface)",
       "disabledmodulegrouplist": "List of disabled module groups, page does not display disabled modules",
+      "minimumchromebrowserversion": "The minimum version of Chrome browser. If the setting is lower than this version, it will redirect to a page that is incompatible with the browser version. The default is 95",
+      "minimumfirefoxbrowserversion": "Firefox browser minimum version, below this setting version will redirect to browser version incompatible page, default 0",
       "mobilefiledownloadenabled": "Do you allow mobile devices to download attachments"
     }
   },
@@ -3469,6 +3472,9 @@
     "batchurgeprocesstaskapi": {
       "getname": "Batch reminder work orders"
     },
+    "delayprocesstaskstepslaapi": {
+      "getname": "Delay the timeliness of work order steps"
+    },
     "processconditionlist": {
       "getname": "Process Condition List",
       "input": {
@@ -4999,6 +5005,7 @@
       "copyprocesstaskid": "Copy job ID",
       "currentprocesstaskid": "Current job ID",
       "currentprocesstaskstep": "Current step information of the work order",
+      "delaytime": "Delay Time ",
       "distributary": "shunt",
       "end": "finish",
       "focususeruuidlist": "List of Work Order Followers",
@@ -5007,6 +5014,7 @@
       "formconfigauthoritylist": "Authorization List for Work Order Form Information",
       "formextendattributedatalist": "Form Extension Attribute Data List",
       "fromprocesstaskid": "Source work order ID",
+      "fromprocesstaskstepid": "Source step ID",
       "groupdesc": "One stop service reporting tracking processing platform",
       "groupname": "ITSM",
       "handlerstepinfo": "Processor specific step information",
@@ -5047,6 +5055,7 @@
       "submitterinfo": "Work order submitter information",
       "submittername": "Work order submitter name",
       "submitteruuid": "Work order submitter Uuid",
+      "targetprocesstaskstepid": "Target Step ID",
       "timer": "Timed nodes",
       "tranferreportdirection": "Transfer/Related Direction",
       "tranferreportprocesstasklist": "Report Work Order Information List",

@@ -330,6 +330,7 @@
     "time": "时间",
     "timecost": "耗时",
     "timeoutpoint": "超时时间点",
+    "timeunit": "时间单位",
     "title": "标题",
     "toomanyoption": "选项过多，其余选项不予展示",
     "trigger": "触发点",
@@ -546,6 +547,8 @@
     "frameworktenantconfig": {
       "apiqps": "每秒向服务器发送的请求数量峰值（不分接口）",
       "disabledmodulegrouplist": "禁用的模块组列表，页面将不显示被禁用的模块（多个模块请以英文逗号隔开）",
+      "minimumchromebrowserversion": "chrome浏览器最低版本，低于该设置版本会跳转至浏览器版本不兼容页面，默认95",
+      "minimumfirefoxbrowserversion": "firefox浏览器最低版本，低于该设置版本会跳转至浏览器版本不兼容页面，默认0",
       "mobilefiledownloadenabled": "是否允许移动端下载附件"
     }
   },
@@ -3519,6 +3522,9 @@
     "batchurgeprocesstaskapi": {
       "getname": "批量催办工单"
     },
+    "delayprocesstaskstepslaapi": {
+      "getname": "延迟工单步骤时效"
+    },
     "processconditionlist": {
       "getname": "流程条件列表",
       "input": {
@@ -5051,6 +5057,7 @@
       "copyprocesstaskid": "复制工单id",
       "currentprocesstaskid": "当前工单id",
       "currentprocesstaskstep": "工单当前步骤信息",
+      "delaytime": "延时时间",
       "distributary": "分流",
       "end": "结束",
       "focususeruuidlist": "工单关注人列表",
@@ -5059,6 +5066,7 @@
       "formconfigauthoritylist": "工单表单信息授权列表",
       "formextendattributedatalist": "表单扩展属性数据列表",
       "fromprocesstaskid": "来源工单id",
+      "fromprocesstaskstepid": "来源步骤id",
       "groupdesc": "一站式服务上报-跟踪-处理平台",
       "groupname": "IT服务",
       "handlerstepinfo": "处理器特有的步骤信息",
@@ -5099,6 +5107,7 @@
       "submitterinfo": "工单提交人信息",
       "submittername": "工单提交人名称",
       "submitteruuid": "工单提交人Uuid",
+      "targetprocesstaskstepid": "目标步骤ID",
       "timer": "定时节点",
       "tranferreportdirection": "转报/关联方向",
       "tranferreportprocesstasklist": "转报工单信息列表",
