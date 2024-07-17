@@ -1155,6 +1155,16 @@
     "eoasteppendingexception": {
       "eoasteppendingexception": "EOA step: {0} is not activated"
     },
+    "eoastepusernotfoundexception": {
+      "getmessage": {
+        "a": "EOA step: {0} cannot find handler, specified user, group, role cannot match user",
+        "b": "EOA step: {0} cannot find processor, form component value cannot match user",
+        "c": "EOA step: {0} cannot find handler, specified dispatcher does not exist",
+        "d": "EOA step: {0} cannot find handler, specified dispatcher cannot match user",
+        "e": "EOA step: {0} Unable to find handler, specified dispatcher throws exception, exception information: {1}",
+        "f": "EOA step: {0} cannot find handler"
+      }
+    },
     "eoatemplateatleastonestepexception": {
       "eoatemplateatleastonestepexception": "The EOA template must have at least one step"
     },

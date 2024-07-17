@@ -1184,6 +1184,16 @@
     "eoasteppendingexception": {
       "eoasteppendingexception": "EOA步骤：{0} 未激活"
     },
+    "eoastepusernotfoundexception": {
+      "getmessage": {
+        "a": "EOA步骤：{0}找不到处理人，指定的用户、分组、角色匹配不到用户",
+        "b": "EOA步骤：{0}找不到处理人，表单组件值匹配不到用户",
+        "c": "EOA步骤：{0}找不到处理人，指定的分派器不存在",
+        "d": "EOA步骤：{0}找不到处理人，指定的分派器匹配不到用户",
+        "e": "EOA步骤：{0}找不到处理人，指定的分派器抛异常，异常信息：{1}",
+        "f": "EOA步骤：{0}找不到处理人"
+      }
+    },
     "eoatemplateatleastonestepexception": {
       "eoatemplateatleastonestepexception": "EOA模板至少要有一个步骤"
     },
