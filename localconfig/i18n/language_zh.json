@@ -254,6 +254,7 @@
     "release": "发布",
     "relname": "关系名称",
     "reltype": "关系类型",
+    "reportauthoritylist": "上报权限列表",
     "request": "需求",
     "retreat": "\"撤回\"",
     "reviewable": "是否可审核",
@@ -1426,6 +1427,11 @@
     },
     "processcommenttemplatenotfoundexception": {
       "processcommenttemplatenotfoundexception": "回复模版：{0} 不存在"
+    }
+  },
+  "nfpeo": {
+    "processtasknotchannelviewexception": {
+      "processtasknotchannelviewexception": "您没有【{0}】服务的工单查看权限"
     }
   },
   "nfpep": {
@@ -3482,6 +3488,9 @@
     "cataloggetapi": {
       "getname": "获取服务目录信息"
     },
+    "catalogsaveapi": {
+      "getname": "保存服务目录信息"
+    },
     "channelgetapi": {
       "getname": "获取服务通道信息"
     },
@@ -3554,6 +3563,9 @@
     },
     "processparamlist": {
       "getname": "流程参数列表"
+    },
+    "processreferencelistapi": {
+      "getname": "流程引用列表"
     },
     "processsearchapi": {
       "getname": "流程列表搜索接口",

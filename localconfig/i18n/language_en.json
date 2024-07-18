@@ -254,6 +254,7 @@
     "release": "release",
     "relname": "Relationship Name",
     "reltype": "Relationship Type",
+    "reportauthoritylist": "Report permission list",
     "request": "demand",
     "retreat": "Withdrawal",
     "reviewable": "Is it auditable",
@@ -1398,6 +1399,11 @@
     },
     "processcommenttemplatenotfoundexception": {
       "processcommenttemplatenotfoundexception": "Reply template: {0} does not exist"
+    }
+  },
+  "nfpeo": {
+    "processtasknotchannelviewexception": {
+      "processtasknotchannelviewexception": "You do not have permission to view work orders for the [{0}] service"
     }
   },
   "nfpep": {
@@ -3432,6 +3438,9 @@
     "cataloggetapi": {
       "getname": "Service directory information acquisition interface"
     },
+    "catalogsaveapi": {
+      "getname": "Save service directory information"
+    },
     "channelgetapi": {
       "getname": "Service channel obtaining information"
     },
@@ -3504,6 +3513,9 @@
     },
     "processparamlist": {
       "getname": "Process parameter list"
+    },
+    "processreferencelistapi": {
+      "getname": "Process reference list"
     },
     "processsearchapi": {
       "getname": "Process List Search Interface",
