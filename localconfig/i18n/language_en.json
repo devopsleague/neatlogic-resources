@@ -602,6 +602,12 @@
     },
     "cmdbtenantconfig": {
       "isresourcecenterauth": "Is the asset list controlled by model permissions and group permissions"
+    },
+    "codehubrepositoryappmodulenotfoundexception": {
+      "codehubrepositoryappmodulenotfoundexception": "Warehouse: \u0027{0}\u0027 has not been associated with any application modules within the application configuration yet"
+    },
+    "codehubrepositoryrunnernotfoundexception": {
+      "codehubrepositoryrunnernotfoundexception": "Warehouse: The application module associated with \u0027{0}\u0027 is not associated with a runner"
     }
   },
   "nfcea": {
@@ -967,6 +973,9 @@
     }
   },
   "nfde": {
+    "deployappconfigmodulerunnernotfoundexception": {
+      "deployappconfigmodulerunnernotfoundexception": "Application system \u0027{0}\u0027, module \u0027{1}\u0027 is not associated with a runner"
+    },
     "deployjobnotfoundexception": {
       "deployjobnotfoundexception": {
         "appmodule": "The {1} module under {0} has not executed any jobs yet",
