@@ -1397,7 +1397,8 @@
     "itsmtenantconfig": {
       "displaymodeaftertimeout": "工单时效超时后显示方式，可选值naturalTime|workTime",
       "processtaskstepenablecomment": "是否工单步骤回复功能",
-      "slatimedisplaymode": "工单时效显示方式，可选值naturalTime|workTime"
+      "slatimedisplaymode": "工单时效显示方式，可选值naturalTime|workTime",
+      "workcenterrefresh": "工单中心是否自动刷新，默认值为1（自动刷新）"
     },
     "processtaskgroupsearch": {
       "processusertype": "工单干系人"
