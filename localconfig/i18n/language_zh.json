@@ -2623,7 +2623,7 @@
       "catalogauthexception": "您没有{0}当前目录的权限"
     },
     "diagramexistsnotendversionexception": {
-      "diagramexistsnotendversionexception": "架构图存在未完结版本，暂时不能编辑"
+      "diagramexistsnotendversionexception": "架构图处于不可编辑状态，暂时不能编辑"
     },
     "diagramisexistsexception": {
       "diagramisexistsexception": "架构图已创建"

@@ -2595,7 +2595,7 @@
       "catalogauthexception": "You do not have permission to {0} the current directory"
     },
     "diagramexistsnotendversionexception": {
-      "diagramexistsnotendversionexception": "The architecture diagram has an unfinished version and cannot be edited temporarily"
+      "diagramexistsnotendversionexception": "The architecture diagram is in an uneditable state and cannot be edited at the moment"
     },
     "diagramisexistsexception": {
       "diagramisexistsexception": "Architecture diagram created"
