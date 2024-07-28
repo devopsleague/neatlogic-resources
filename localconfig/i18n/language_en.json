@@ -1225,6 +1225,12 @@
     "runnernotfoundbytagentrunneridexception": {
       "runnernotfoundbytagentrunneridexception": "Could not find the corresponding runner for {0}. Please check logs/tagentRegisterAndNetty.log for abnormal heartbeat"
     },
+    "runnernotfoundexception": {
+      "runnernotfoundexception": {
+        "ipport": "{0}: {1} No matching runner found, please confirm if the runner exists in the executor management",
+        "not": "Runner does not exist"
+      }
+    },
     "runnernotmatchexception": {
       "runnernotmatchexception": {
         "ipresourceid": "IP: {0}({1}) Unable to find a matching runner, please verify the runner group configuration",

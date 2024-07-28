@@ -1254,6 +1254,12 @@
     "runnernotfoundbytagentrunneridexception": {
       "runnernotfoundbytagentrunneridexception": "未找到{0}对应的runner,请查看logs/tagentRegisterAndNetty.log,心跳异常"
     },
+    "runnernotfoundexception": {
+      "runnernotfoundexception": {
+        "ipport": "{0}:{1}没有找到匹配的runner,请确认执行器管理是否存在该runner",
+        "not": "runner不存在"
+      }
+    },
     "runnernotmatchexception": {
       "runnernotmatchexception": {
         "ipresourceid": "ip: {0}({1})找不到匹配的runner，请核对runner组配置",
