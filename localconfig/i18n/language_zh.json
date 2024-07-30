@@ -2500,6 +2500,9 @@
     }
   },
   "nmcarr": {
+    "exportresourceapi": {
+      "getname": "导出资产清单列表"
+    },
     "resourcelistapi": {
       "getname": "查询资源中心数据列表"
     },
