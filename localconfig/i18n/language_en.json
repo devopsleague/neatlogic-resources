@@ -518,6 +518,10 @@
       "getauthdisplayname": "Extra menu management permissions",
       "getauthintroduction": "Configure extra menus"
     },
+    "home_page_modify": {
+      "getauthdisplayname": "Homepage Settings Management Permissions",
+      "getauthintroduction": "Add, modify, and delete homepage settings"
+    },
     "matrix_modify": {
       "getauthdisplayname": "Matrix Management Permissions",
       "getauthintroduction": "Adding, modifying, and deleting matrices"
@@ -1213,6 +1217,14 @@
   "nfeec": {
     "eventsolutionnotfoundedittargetexception": {
       "eventsolutionnotfoundedittargetexception": "Solution: {0} does not exist"
+    }
+  },
+  "nfeh": {
+    "homepagenamerepeatexception": {
+      "homepagenamerepeatexception": "Homepage configuration: \u0027{0}\u0027 already exists"
+    },
+    "homepagenotfoundexception": {
+      "homepagenotfoundexception": "Homepage configuration: \u0027{0}\u0027 does not exist"
     }
   },
   "nfer": {
@@ -4263,6 +4275,26 @@
     },
     "saveformversionscenereadonlyapi": {
       "getname": "Set form version scenario read-only"
+    }
+  },
+  "nmtah": {
+    "activehomepageapi": {
+      "getname": "Activate homepage configuration information"
+    },
+    "deletehomepageapi": {
+      "getname": "Delete homepage configuration information"
+    },
+    "gethomepageapi": {
+      "getname": "Get homepage configuration information"
+    },
+    "listhomepageapi": {
+      "getname": "Homepage Configuration List"
+    },
+    "movehomepageapi": {
+      "getname": "Mobile homepage configuration location"
+    },
+    "savehomepageapi": {
+      "getname": "Save homepage configuration information"
     }
   },
   "nmtai": {
