@@ -4660,6 +4660,9 @@
     "resetusertokenapi": {
       "getname": "重置用户的令牌"
     },
+    "userdatasaveapi": {
+      "getname": "保存用户数据"
+    },
     "userdeleteapi": {
       "getname": "删除用户接口"
     },

@@ -4608,6 +4608,9 @@
     "resetusertokenapi": {
       "getname": "Reset user\u0027s token"
     },
+    "userdatasaveapi": {
+      "getname": "Save user data"
+    },
     "userdeleteapi": {
       "getname": "Delete User Interface"
     },
