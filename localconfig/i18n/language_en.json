@@ -4583,8 +4583,14 @@
     }
   },
   "nmtau": {
+    "deleteuserdataapi": {
+      "getname": "Delete user data"
+    },
     "getcurrentusertokenapi": {
       "getname": "Obtain the user\u0027s own token"
+    },
+    "getuserdataapi": {
+      "getname": "Obtain user data"
     },
     "getusertokenapi": {
       "getname": "Obtain the user\u0027s token"
@@ -4601,6 +4607,9 @@
     },
     "resetusertokenapi": {
       "getname": "Reset user\u0027s token"
+    },
+    "userdatasaveapi": {
+      "getname": "Save user data"
     },
     "userdeleteapi": {
       "getname": "Delete User Interface"
