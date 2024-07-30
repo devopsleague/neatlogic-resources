@@ -519,8 +519,8 @@
       "getauthintroduction": "对附加菜单进行配置"
     },
     "home_page_modify": {
-      "getauthdisplayname": "首页设置管理权限",
-      "getauthintroduction": "对首页设置添加、修改和删除"
+      "getauthdisplayname": "默认首页管理权限",
+      "getauthintroduction": "对默认首页进行添加、修改、删除"
     },
     "matrix_modify": {
       "getauthdisplayname": "矩阵管理权限",
@@ -4331,22 +4331,22 @@
   },
   "nmtah": {
     "activehomepageapi": {
-      "getname": "激活首页配置信息"
+      "getname": "激活默认首页配置信息"
     },
     "deletehomepageapi": {
-      "getname": "删除首页配置信息"
+      "getname": "删除默认首页配置信息"
     },
     "gethomepageapi": {
-      "getname": "获取首页配置信息"
+      "getname": "获取默认首页配置信息"
     },
     "listhomepageapi": {
-      "getname": "首页配置列表"
+      "getname": "默认首页配置列表"
     },
     "movehomepageapi": {
-      "getname": "移动首页配置位置"
+      "getname": "移动默认首页配置位置"
     },
     "savehomepageapi": {
-      "getname": "保存首页配置信息"
+      "getname": "保存默认首页配置信息"
     }
   },
   "nmtai": {

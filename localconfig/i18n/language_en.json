@@ -519,8 +519,8 @@
       "getauthintroduction": "Configure extra menus"
     },
     "home_page_modify": {
-      "getauthdisplayname": "Homepage Settings Management Permissions",
-      "getauthintroduction": "Add, modify, and delete homepage settings"
+      "getauthdisplayname": "Default homepage management permissions",
+      "getauthintroduction": "Add, modify, and delete the default homepage"
     },
     "matrix_modify": {
       "getauthdisplayname": "Matrix Management Permissions",
