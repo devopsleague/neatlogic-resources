@@ -2472,6 +2472,9 @@
     }
   },
   "nmcarr": {
+    "exportresourceapi": {
+      "getname": "Export asset inventory list"
+    },
     "resourcelistapi": {
       "getname": "Query Resource Center Data List"
     },
