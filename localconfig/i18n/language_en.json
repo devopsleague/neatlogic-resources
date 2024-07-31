@@ -188,6 +188,8 @@
     "jsonobject": "JSON object",
     "key": "key",
     "keyword": "keyword",
+    "lastfinishtime": "Last completion time",
+    "lastfiretime": "Last activation time",
     "layout": "layout",
     "level": "arrangement",
     "lft": "Left encoding",
@@ -213,6 +215,7 @@
     "needpage": "Is it paginated",
     "needscore": "Do you need to score",
     "newvalue": "New value",
+    "nextfiretime": "Next activation time",
     "noauth": "No certification required",
     "nocache": "No cache",
     "nostatus": "Stateless",
@@ -4152,6 +4155,9 @@
     }
   },
   "nmtad": {
+    "activedatasourceapi": {
+      "getname": "Activate data warehouse data source"
+    },
     "adddocumentonlineconfigapi": {
       "getname": "Add mapping relationship between online help documents and module menus"
     },
