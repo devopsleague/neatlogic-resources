@@ -607,6 +607,9 @@
     "cmdbtenantconfig": {
       "isresourcecenterauth": "资产清单是否受模型权限和团体权限控制"
     },
+    "codehubprojectsourcesyncerrorexception": {
+      "codehubprojectsourcesyncerrorexception": "通过来源{0}获取项目列表失败"
+    },
     "codehubrepositoryappmodulenotfoundexception": {
       "codehubrepositoryappmodulenotfoundexception": "仓库：“{0}”还没有关联应用配置内的应用模块"
     },

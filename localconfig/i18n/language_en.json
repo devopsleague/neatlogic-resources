@@ -607,6 +607,9 @@
     "cmdbtenantconfig": {
       "isresourcecenterauth": "Is the asset list controlled by model permissions and group permissions"
     },
+    "codehubprojectsourcesyncerrorexception": {
+      "codehubprojectsourcesyncerrorexception": "Failed to obtain project list from source {0}"
+    },
     "codehubrepositoryappmodulenotfoundexception": {
       "codehubrepositoryappmodulenotfoundexception": "Warehouse: \u0027{0}\u0027 has not been associated with any application modules within the application configuration yet"
     },
