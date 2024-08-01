@@ -188,6 +188,8 @@
     "jsonobject": "json对象",
     "key": "键",
     "keyword": "关键字",
+    "lastfinishtime": "最后一次完成时间",
+    "lastfiretime": "最后一次激活时间",
     "layout": "布局",
     "level": "层次",
     "lft": "左编码",
@@ -213,6 +215,7 @@
     "needpage": "是否分页",
     "needscore": "是否需要评分",
     "newvalue": "新值",
+    "nextfiretime": "下一次激活时间",
     "noauth": "无需认证",
     "nocache": "没有缓存",
     "nostatus": "无状态",
@@ -4204,6 +4207,9 @@
     }
   },
   "nmtad": {
+    "activedatasourceapi": {
+      "getname": "激活数据仓库数据源"
+    },
     "adddocumentonlineconfigapi": {
       "getname": "添加在线帮助文档与模块菜单的映射关系"
     },
