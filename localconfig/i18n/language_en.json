@@ -1085,6 +1085,12 @@
   "nfea": {
     "authencryptexception": {
       "authencryptexception": "The front-end encryption method is abnormal. Please configure login. auth. password. encryption\u003d{0} in the back-end service configuration file, restart the back-end service, refresh the front-end page, and log in again"
+    },
+    "authnotfoundexception": {
+      "authnotfoundexception": {
+        "apiauthname": "”{0} \"Interface permission\" {1} \"does not exist",
+        "authname": "Permission \u0027{0}\u0027 does not exist"
+      }
     }
   },
   "nfeal": {

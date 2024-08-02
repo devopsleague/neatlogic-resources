@@ -1114,6 +1114,12 @@
   "nfea": {
     "authencryptexception": {
       "authencryptexception": "前端加密方式异常，请在后端服务配置文件配置login.auth.password.encrypt\u003d{0}后，重启后端服务后，刷新前端页面重新登录"
+    },
+    "authnotfoundexception": {
+      "authnotfoundexception": {
+        "apiauthname": "”{0}“接口权限“{1}”不存在",
+        "authname": "权限“{0}”不存在"
+      }
     }
   },
   "nfeal": {
