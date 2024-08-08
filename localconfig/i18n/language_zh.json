@@ -3669,8 +3669,16 @@
     "processtaskstepstartifnecessaryapi": {
       "getname": "如果需要，开始工单步骤"
     },
+    "redoasynccreateprocesstaskapi": {
+      "getname": "重做异步创建工单"
+    },
     "updateprocesstaskformapi": {
       "getname": "修改工单表单数据"
+    }
+  },
+  "nmpapt": {
+    "testasynccreateprocesstaskapi": {
+      "getname": "测试异步创建工单"
     }
   },
   "nmpas": {

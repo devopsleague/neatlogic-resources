@@ -3619,8 +3619,16 @@
     "processtaskstepstartifnecessaryapi": {
       "getname": "If necessary, start the work order steps"
     },
+    "redoasynccreateprocesstaskapi": {
+      "getname": "Redo asynchronous creation of work orders"
+    },
     "updateprocesstaskformapi": {
       "getname": "Modifying Work Order Form Data"
+    }
+  },
+  "nmpapt": {
+    "testasynccreateprocesstaskapi": {
+      "getname": "Test asynchronous creation of work orders"
     }
   },
   "nmpas": {
