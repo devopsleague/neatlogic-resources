@@ -475,6 +475,9 @@
       "autoexecparamvalueirregularexception_b": "Parameter of {0}: Value of {1} ({2}): {3} does not meet the format requirements",
       "autoexecparamvalueirregularexception_c": "The value {2} of parameter {0} ({1}) does not meet the formatting requirements"
     },
+    "autoexecparamvaluerepeatexception": {
+      "autoexecparamvaluerepeatexception": "Parameter of stage [{0}] tool [{1}]: {2} ({3}) Value: {4} Repeat"
+    },
     "autoexecprofileisnotfoundexception": {
       "autoexecprofileisnotfoundexception": "The preset parameter set {0} does not exist"
     },
@@ -1810,6 +1813,12 @@
   "nmaf": {
     "autoexecfulltextindextype": {
       "script_document_version": "Custom Tool Version"
+    }
+  },
+  "nmas": {
+    "autoexec": {
+      "loopitems": "Loop item",
+      "loopitemvar": "Loop term variable"
     }
   },
   "nmcaa": {

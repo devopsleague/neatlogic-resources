@@ -475,6 +475,9 @@
       "autoexecparamvalueirregularexception_b": "{0}的参数：{1}（{2}）的值：{3}不符合格式要求",
       "autoexecparamvalueirregularexception_c": "参数{0}（{1}）的值{2}不符合格式要求"
     },
+    "autoexecparamvaluerepeatexception": {
+      "autoexecparamvaluerepeatexception": "阶段[{0}] 工具[{1}]的参数：{2}（{3}）的值：{4} 重复"
+    },
     "autoexecprofileisnotfoundexception": {
       "autoexecprofileisnotfoundexception": "预置参数集{0}不存在"
     },
@@ -1838,6 +1841,12 @@
   "nmaf": {
     "autoexecfulltextindextype": {
       "script_document_version": "自定义工具版本"
+    }
+  },
+  "nmas": {
+    "autoexec": {
+      "loopitems": "循环项",
+      "loopitemvar": "循环项变量"
     }
   },
   "nmcaa": {
