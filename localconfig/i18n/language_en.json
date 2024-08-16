@@ -2643,7 +2643,7 @@
       "diagramisexistsexception": "Architecture diagram created"
     },
     "diagramlockirregularexception": {
-      "diagramlockirregularexception": "The current architecture diagram has been locked for editing by {0}",
+      "diagramlockirregularexception": "The current architecture diagram has been locked by {0}",
       "diagramlockirregularexceptionyou": "You have not locked the current architecture diagram"
     },
     "diagramlockisexistsexception": {

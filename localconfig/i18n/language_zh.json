@@ -2671,7 +2671,7 @@
       "diagramisexistsexception": "架构图已创建"
     },
     "diagramlockirregularexception": {
-      "diagramlockirregularexception": "当前架构图已被{0}锁定编辑",
+      "diagramlockirregularexception": "当前架构图已被 {0} 锁定",
       "diagramlockirregularexceptionyou": "您没有锁定当前架构图"
     },
     "diagramlockisexistsexception": {
