@@ -298,6 +298,7 @@
     "startuser": "Start user",
     "status": "state",
     "statuscolor": "Status Color",
+    "statusdescription": "Status description",
     "statusid": "Status ID",
     "statusinfo": "status information ",
     "statuslist": "Status List",

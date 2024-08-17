@@ -298,6 +298,7 @@
     "startuser": "开始用户",
     "status": "状态",
     "statuscolor": "状态颜色",
+    "statusdescription": "状态描述",
     "statusid": "状态id",
     "statusinfo": "状态信息",
     "statuslist": "状态列表",
