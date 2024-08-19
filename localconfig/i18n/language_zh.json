@@ -395,6 +395,14 @@
     }
   },
   "nfac": {
+    "autoexecjobnotifytriggertype": {
+      "description": {
+        "jobfailed": "作业失败时触发通知"
+      },
+      "text": {
+        "jobfailed": "作业失败"
+      }
+    },
     "autoexectenantconfig": {
       "autoexecjoblogencoding": "自动化作业日志字符编码集合",
       "maxnumofcombopversion": "组合工具版本数量上限，例如设置最多10个版本，创建保存第11个版本时，自动删除掉最老的一个，非激活状态的版本。"
@@ -1501,6 +1509,74 @@
   "nfpes": {
     "scoretemplatenotfoundexception": {
       "scoretemplatenotfoundexception": "评分模版 :{0} 不存在"
+    }
+  },
+  "nfpnc": {
+    "processtasknotifytriggertype": {
+      "description": {
+        "completeprocesstask": "工单流转至结束时触发通知",
+        "recoverprocesstask": "工单完成前，有权限用户恢复工单时触发通知",
+        "reopenprocesstask": "工单完成后，用户评分前，有权限的用户重新打开工单并回退至某一步骤重新开始处理时触发通知",
+        "startprocess": "用户上报提交工单时触发通知",
+        "waitingscoreprocesstask": "工单完成后需要评分时触发通知"
+      },
+      "text": {
+        "abortprocesstask": "取消工单",
+        "completeprocesstask": "完成工单",
+        "deleteprocesstask": "删除工单",
+        "markrepeatprocesstask": "标记重复事件",
+        "recoverprocesstask": "恢复工单",
+        "reopenprocesstask": "重新打开工单",
+        "scoreprocesstask": "评分",
+        "startprocess": "上报",
+        "waitingscoreprocesstask": "待评分"
+      }
+    },
+    "processtaskstepnotifytriggertype": {
+      "description": {
+        "active": "流转到某个步骤，该步骤被自动激活时触发通知",
+        "assignexception": "步骤激活时分配处理人，处理人不存在或规则无法匹配到有效处理人时触发通知",
+        "back": "工单完成前，由处理人手动回退工单至前面的某个步骤时触发通知",
+        "comment": "用户对步骤进行回复时触发通知",
+        "failed": "当前步骤出现分配异常、流转异常、系统异常导致步骤失败时触发通知",
+        "pause": "有权限的用户暂停当前步骤时触发通知",
+        "recover": "有权限的用户恢复当前步骤时触发通知",
+        "retreat": "工单完成前，由上一步骤有权限的用户手动撤回工单时触发通知，重新处理上一步骤",
+        "start": "步骤自动开始或者处理人手动开始处理时触发通知",
+        "succeed": "步骤完成时触发通知",
+        "transfer": "有步骤转交权限的用户将当前步骤处理权限转交给其他用户时触发通知",
+        "urge": "工单完成前，用户对工单进行催办时触发通知"
+      },
+      "text": {
+        "active": "步骤激活",
+        "assignexception": "分配异常",
+        "back": "步骤回退",
+        "comment": "步骤回复",
+        "failed": "步骤失败",
+        "pause": "步骤暂停",
+        "recover": "步骤恢复",
+        "retreat": "步骤撤回",
+        "start": "步骤开始",
+        "succeed": "步骤成功",
+        "transfer": "步骤转交",
+        "urge": "步骤催办"
+      }
+    },
+    "processtasksteptasknotifytriggertype": {
+      "description": {
+        "completealltask": "所有子任务满足流转条件时触发通知",
+        "completetask": "任务处理人完成子任务时触发通知",
+        "createtask": "步骤处理人为当前步骤创建子任务时触发通知",
+        "deletetask": "步骤处理人删除子任务时触发通知",
+        "edittask": "步骤处理人编辑子任务内容时触发通知"
+      },
+      "text": {
+        "completealltask": "子任务满足步骤流转",
+        "completetask": "子任务完成",
+        "createtask": "子任务创建",
+        "deletetask": "子任务删除",
+        "edittask": "子任务编辑"
+      }
     }
   },
   "nfpwtp": {

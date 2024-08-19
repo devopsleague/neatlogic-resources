@@ -395,6 +395,14 @@
     }
   },
   "nfac": {
+    "autoexecjobnotifytriggertype": {
+      "description": {
+        "jobfailed": "Trigger notification when homework fails"
+      },
+      "text": {
+        "jobfailed": "Homework failed"
+      }
+    },
     "autoexectenantconfig": {
       "autoexecjoblogencoding": "Automation job log Character encoding set",
       "maxnumofcombopversion": "The maximum number of versions of the combination tool, such as setting a maximum of 10 versions, will automatically delete the oldest and inactive version when creating and saving the 11th version."
@@ -1473,6 +1481,74 @@
   "nfpes": {
     "scoretemplatenotfoundexception": {
       "scoretemplatenotfoundexception": "Rating template: {0} does not exist"
+    }
+  },
+  "nfpnc": {
+    "processtasknotifytriggertype": {
+      "description": {
+        "completeprocesstask": "Trigger notification when work order flow ends",
+        "recoverprocesstask": "Trigger notification when authorized users restore the work order before it is completed",
+        "reopenprocesstask": "After the work order is completed and before the user scores, a notification is triggered when authorized users reopen the work order and revert back to a certain step to restart processing",
+        "startprocess": "Trigger notification when user reports and submits work order",
+        "waitingscoreprocesstask": "Trigger notification when scoring is required after completing the work order"
+      },
+      "text": {
+        "abortprocesstask": "Cancel work order",
+        "completeprocesstask": "Complete work order",
+        "deleteprocesstask": "Delete work order",
+        "markrepeatprocesstask": "Tag duplicate events",
+        "recoverprocesstask": "Restore work order",
+        "reopenprocesstask": "Reopen the ticket",
+        "scoreprocesstask": "score",
+        "startprocess": "Report",
+        "waitingscoreprocesstask": "To be rated"
+      }
+    },
+    "processtaskstepnotifytriggertype": {
+      "description": {
+        "active": "Flow to a certain step, trigger notification when the step is automatically activated",
+        "assignexception": "Assign a handler during step activation, and trigger a notification when the handler does not exist or the rule cannot match a valid handler",
+        "back": "Trigger notification when the handler manually retracts the work order to a previous step before it is completed",
+        "comment": "Trigger notification when user responds to steps",
+        "failed": "Trigger notification when allocation exception, flow exception, or system exception occurs in the current step causing step failure",
+        "pause": "Trigger notification when authorized users pause the current step",
+        "recover": "Trigger notification when authorized users restore the current step",
+        "retreat": "Before the work order is completed, a notification will be triggered when a user with permission from the previous step manually withdraws the work order, and the previous step will be reprocessed",
+        "start": "Trigger notification when steps start automatically or when the processor manually starts processing",
+        "succeed": "Trigger notification upon completion of steps",
+        "transfer": "Triggering notification when a user with step-by-step permission transfers the processing permission of the current step to another user",
+        "urge": "Trigger notification when the user urges the completion of a work order"
+      },
+      "text": {
+        "active": "Step activation",
+        "assignexception": "Allocation exception",
+        "back": "Step rollback",
+        "comment": "Step reply",
+        "failed": "Step failed",
+        "pause": "Step pause",
+        "recover": "Step recovery",
+        "retreat": "Step withdrawal",
+        "start": "Step start",
+        "succeed": "Step successful",
+        "transfer": "Step transfer",
+        "urge": "Step reminder"
+      }
+    },
+    "processtasksteptasknotifytriggertype": {
+      "description": {
+        "completealltask": "Trigger notification when all subtasks meet the flow conditions",
+        "completetask": "Trigger notification when task handler completes subtask",
+        "createtask": "Step handlers trigger notifications when creating subtasks for the current step",
+        "deletetask": "Trigger notification when the handler deletes subtasks",
+        "edittask": "Trigger notification when the process person edits subtask content"
+      },
+      "text": {
+        "completealltask": "Subtask meets step flow requirements",
+        "completetask": "Subtask completed",
+        "createtask": "Subtask creation",
+        "deletetask": "Subtask deletion",
+        "edittask": "Subtask Editing"
+      }
     }
   },
   "nfpwtp": {
