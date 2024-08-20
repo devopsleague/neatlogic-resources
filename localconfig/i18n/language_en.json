@@ -379,7 +379,8 @@
     "widgetlist": "Component List",
     "worker": "Processed by",
     "worktimename": "Working Time Window Name",
-    "worktimeuuid": "Working Time Window Uuid"
+    "worktimeuuid": "Working Time Window Uuid",
+    "year": "particular year"
   },
   "enum": {
     "rdm": {
@@ -4798,6 +4799,12 @@
           }
         }
       }
+    },
+    "worktimecalendarsaveapi": {
+      "getname": "Save work calendar information"
+    },
+    "worktimesaveapi": {
+      "getname": "Save working time window information"
     }
   },
   "nmtc": {
@@ -5129,6 +5136,7 @@
     },
     "framework": {
       "agentid": "Enterprise Application ID",
+      "calendarlist": "Work Calendar List",
       "conditionmodel": "Conditional model",
       "corpid": "Enterprise ID",
       "corpsecret": "Applied credential key",
