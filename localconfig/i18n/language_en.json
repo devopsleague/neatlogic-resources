@@ -398,10 +398,22 @@
   "nfac": {
     "autoexecjobnotifytriggertype": {
       "description": {
-        "jobfailed": "Trigger notification when homework fails"
+        "jobcompleted": "Trigger notification when homework is completed",
+        "jobfailed": "Trigger notification when homework fails",
+        "jobwaitinput": "Trigger notification when homework is waiting to be inputted"
       },
       "text": {
-        "jobfailed": "Homework failed"
+        "jobcompleted": "The homework has been completed",
+        "jobfailed": "Homework failed",
+        "jobwaitinput": "Homework to be inputted"
+      }
+    },
+    "autoexecnotifytriggertype": {
+      "description": {
+        "createjobfailed": "Trigger notification when job creation fails"
+      },
+      "text": {
+        "createjobfailed": "Failed to create homework"
       }
     },
     "autoexectenantconfig": {
