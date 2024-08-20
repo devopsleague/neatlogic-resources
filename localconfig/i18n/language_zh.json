@@ -379,7 +379,8 @@
     "widgetlist": "组件列表",
     "worker": "处理人",
     "worktimename": "服务时间窗口名称",
-    "worktimeuuid": "服务时间窗口uuid"
+    "worktimeuuid": "服务时间窗口uuid",
+    "year": "年份"
   },
   "enum": {
     "rdm": {
@@ -4850,6 +4851,12 @@
           }
         }
       }
+    },
+    "worktimecalendarsaveapi": {
+      "getname": "保存工作日历信息"
+    },
+    "worktimesaveapi": {
+      "getname": "保存工作时间窗口信息"
     }
   },
   "nmtc": {
@@ -5181,6 +5188,7 @@
     },
     "framework": {
       "agentid": "企业应用ID",
+      "calendarlist": "工作日历列表",
       "conditionmodel": "条件模型",
       "corpid": "企业ID",
       "corpsecret": "应用的凭证密钥",
