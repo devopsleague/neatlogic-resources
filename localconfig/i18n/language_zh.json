@@ -398,10 +398,22 @@
   "nfac": {
     "autoexecjobnotifytriggertype": {
       "description": {
-        "jobfailed": "作业失败时触发通知"
+        "jobcompleted": "作业已完成时触发通知",
+        "jobfailed": "作业失败时触发通知",
+        "jobwaitinput": "作业待输入时触发通知"
       },
       "text": {
-        "jobfailed": "作业失败"
+        "jobcompleted": "作业已完成",
+        "jobfailed": "作业失败",
+        "jobwaitinput": "作业待输入"
+      }
+    },
+    "autoexecnotifytriggertype": {
+      "description": {
+        "createjobfailed": "创建作业失败时触发通知"
+      },
+      "text": {
+        "createjobfailed": "创建作业失败"
       }
     },
     "autoexectenantconfig": {
