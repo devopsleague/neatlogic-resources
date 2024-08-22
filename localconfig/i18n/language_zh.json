@@ -1382,6 +1382,10 @@
     }
   },
   "nffe": {
+    "formextendattributeconfigillegalexception": {
+      "formextendattributeconfigillegalexception_a": "表单扩展数据中，{0} 类型属性 {1} 的配置中缺少 {2} 字段",
+      "formextendattributeconfigillegalexception_b": "表单扩展数据中，{0} 类型属性 {1} 的配置中 {2} 字段值为 {3} 不合法"
+    },
     "formnotfoundexception": {
       "formnotfoundexception": "表单“{0}”不存在"
     },
