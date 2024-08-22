@@ -1354,6 +1354,10 @@
     }
   },
   "nffe": {
+    "formextendattributeconfigillegalexception": {
+      "formextendattributeconfigillegalexception_a": "In the form extension data, the configuration of the {0} type attribute {1} is missing the {2} field",
+      "formextendattributeconfigillegalexception_b": "In the form extension data, the configuration of the {0} type attribute {1} has an invalid {2} field value of {3}"
+    },
     "formnotfoundexception": {
       "formnotfoundexception": "Form \u0027{0}\u0027 does not exist"
     },
