@@ -3725,6 +3725,14 @@
       "getname": "Modifying Work Order Form Data"
     }
   },
+  "nmpapa": {
+    "searchasynccreateprocesstaskapi": {
+      "getname": "Query asynchronous creation of work order data list"
+    },
+    "updateasynccreateprocesstaskapi": {
+      "getname": "Modify asynchronous creation of work order data"
+    }
+  },
   "nmpapt": {
     "testasynccreateprocesstaskapi": {
       "getname": "Test asynchronous creation of work orders"

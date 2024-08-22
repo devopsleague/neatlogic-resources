@@ -3775,6 +3775,14 @@
       "getname": "修改工单表单数据"
     }
   },
+  "nmpapa": {
+    "searchasynccreateprocesstaskapi": {
+      "getname": "查询异步创建工单数据列表"
+    },
+    "updateasynccreateprocesstaskapi": {
+      "getname": "修改异步创建工单数据"
+    }
+  },
   "nmpapt": {
     "testasynccreateprocesstaskapi": {
       "getname": "测试异步创建工单"
