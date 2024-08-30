@@ -3772,6 +3772,17 @@
     "processtaskstepstartifnecessaryapi": {
       "getname": "如果需要，开始工单步骤"
     },
+    "processtasktransferapi": {
+      "getname": "转交工单",
+      "input": {
+        "param": {
+          "desc": {
+            "issavedata": "是否保存数据",
+            "workerlist": "转交目标对象列表"
+          }
+        }
+      }
+    },
     "redoasynccreateprocesstaskapi": {
       "getname": "重做异步创建工单"
     },
