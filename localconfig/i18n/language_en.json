@@ -3722,6 +3722,17 @@
     "processtaskstepstartifnecessaryapi": {
       "getname": "If necessary, start the work order steps"
     },
+    "processtasktransferapi": {
+      "getname": "Transfer work order",
+      "input": {
+        "param": {
+          "desc": {
+            "issavedata": "Do you want to save the data",
+            "workerlist": "Transfer the target object list"
+          }
+        }
+      }
+    },
     "redoasynccreateprocesstaskapi": {
       "getname": "Redo asynchronous creation of work orders"
     },
