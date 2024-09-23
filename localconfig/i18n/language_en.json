@@ -238,6 +238,7 @@
     "pc": "Computer side",
     "phone": "Telephone number",
     "planstarttime": "Planned time",
+    "policy": "strategy",
     "prefix": "prefix",
     "primarykey": "Primary key",
     "priority": "priority",
@@ -1262,6 +1263,11 @@
     },
     "homepagenotfoundexception": {
       "homepagenotfoundexception": "Homepage configuration: \u0027{0}\u0027 does not exist"
+    }
+  },
+  "nfel": {
+    "policyrepeatexception": {
+      "policyrepeatexception": "There is a duplicate license rule {0}"
     }
   },
   "nfer": {

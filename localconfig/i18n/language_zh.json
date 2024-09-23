@@ -238,6 +238,7 @@
     "pc": "电脑端",
     "phone": "电话号码",
     "planstarttime": "计划时间",
+    "policy": "策略",
     "prefix": "前缀",
     "primarykey": "主键",
     "priority": "优先级",
@@ -1291,6 +1292,11 @@
     },
     "homepagenotfoundexception": {
       "homepagenotfoundexception": "首页配置：“{0}”不存在"
+    }
+  },
+  "nfel": {
+    "policyrepeatexception": {
+      "policyrepeatexception": "存在重复license规则{0}"
     }
   },
   "nfer": {
