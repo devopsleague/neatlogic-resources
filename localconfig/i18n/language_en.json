@@ -3458,6 +3458,15 @@
       "getname": "Initialize online help document index"
     }
   },
+  "nmfsl": {
+    "licensepolicyvalidjob": {
+      "isend": "%The license for the s (% s) module on% s has expired and% s has been discontinued. Please contact the manufacturer for replacement",
+      "isendgraceperiod": "And it has exceeded the grace period (% d days),",
+      "isexpired": "%The license for the s (% s) module has expired on% s. Please contact the manufacturer for replacement",
+      "isexpiredgraceperiod": "We have a grace period of% d days and will soon stop using it,",
+      "iswillexpired": "%The license for the s (% s) module is about to expire on% s. Please contact the manufacturer to replace it"
+    }
+  },
   "nmft": {
     "createdatawarehousetableinithandler": {
       "getname": "Create a data warehouse dynamic table"

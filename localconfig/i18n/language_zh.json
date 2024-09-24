@@ -3486,6 +3486,15 @@
       "getname": "初始化在线帮助文档索引"
     }
   },
+  "nmfsl": {
+    "licensepolicyvalidjob": {
+      "isend": "%s(%s)模块许可于%s已过期,%s已停止使用，请联系厂商更换",
+      "isendgraceperiod": "且超过了宽限天数(%d天),",
+      "isexpired": "%s(%s)模块许可于%s已过期,%s请联系厂商更换",
+      "isexpiredgraceperiod": "现宽限%d天,即将停止使用,",
+      "iswillexpired": "%s(%s)模块许可即将于%s过期，请联系厂商更换"
+    }
+  },
   "nmft": {
     "createdatawarehousetableinithandler": {
       "getname": "创建数据仓库动态表"
