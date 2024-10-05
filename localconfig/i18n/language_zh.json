@@ -2566,6 +2566,9 @@
     "searchglobalattrapi": {
       "getname": "查询全局属性"
     },
+    "searchglobalattritemapi": {
+      "getname": "查询全局属性值"
+    },
     "searchgraphapi": {
       "getname": "搜索拓扑视图"
     }
@@ -5069,6 +5072,7 @@
       "needalias": "是否需要别名",
       "needchildren": "是否返回子模型",
       "needcirel": "是否需要返回关系路径",
+      "needglobalattritem": "是否需要成员",
       "nodelist": "节点列表",
       "objcategory": "对象大类",
       "objtype": "对象类型",

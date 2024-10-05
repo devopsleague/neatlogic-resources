@@ -2538,6 +2538,9 @@
     "searchglobalattrapi": {
       "getname": "Query Global Properties"
     },
+    "searchglobalattritemapi": {
+      "getname": "Query global attribute values"
+    },
     "searchgraphapi": {
       "getname": "Search Topology View"
     }
@@ -5017,6 +5020,7 @@
       "needalias": "Do you need an alias",
       "needchildren": "Do you want to return the sub model",
       "needcirel": "Do we need to return the relationship path",
+      "needglobalattritem": "Do you need members",
       "nodelist": "Node List",
       "objcategory": "Object categories",
       "objtype": "object type",
