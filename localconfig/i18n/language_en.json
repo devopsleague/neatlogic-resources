@@ -5238,7 +5238,7 @@
     },
     "itsm": {
       "actionlist": "Action List",
-      "automatic": "Automatic processing",
+      "automatic": "external call",
       "caneditfocususer": "Do you have permission to modify the work order followers",
       "cataloginfo": "Service Catalog Information",
       "catalogname": "Directory name where the service is located",

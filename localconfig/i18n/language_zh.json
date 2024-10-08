@@ -5290,7 +5290,7 @@
     },
     "itsm": {
       "actionlist": "操作列表",
-      "automatic": "自动处理",
+      "automatic": "外部调用",
       "caneditfocususer": "是否有权限修改工单关注人",
       "cataloginfo": "服务目录信息",
       "catalogname": "服务所在目录名称",
