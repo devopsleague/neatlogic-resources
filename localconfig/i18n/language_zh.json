@@ -444,6 +444,7 @@
       "phase": "阶段",
       "radio": "单选",
       "runnergroup": "执行器组",
+      "runnergrouptag": "执行器组标签",
       "select": "单选下拉",
       "switch": "开关",
       "text": "文本参数，可输入字符串、数字",
@@ -1357,6 +1358,9 @@
     },
     "tenantconfignotfoundexception": {
       "tenantconfignotfoundexception": "配置信息：“{0}”不存在"
+    },
+    "tenantinvalidexception": {
+      "tenantinvalidexception": "租户{0}认证非法"
     }
   },
   "nfeu": {
@@ -1835,6 +1839,14 @@
     }
   },
   "nmaaja": {
+    "createautoexeccombopjobapi": {
+      "getname": "组合工具创建作业",
+      "input": {
+        "param": {
+          "roundcount": "分组数"
+        }
+      }
+    },
     "createautoexecjobfromcombopapi": {
       "getname": "作业创建（来自组合工具）",
       "input": {

@@ -444,6 +444,7 @@
       "phase": "stage",
       "radio": "Single Choice",
       "runnergroup": "Actuator group",
+      "runnergrouptag": "Actuator group label",
       "select": "Single selection dropdown",
       "switch": "switch",
       "text": "Text parameters, can input strings, numbers",
@@ -1328,6 +1329,9 @@
     },
     "tenantconfignotfoundexception": {
       "tenantconfignotfoundexception": "Configuration information: {0} does not exist"
+    },
+    "tenantinvalidexception": {
+      "tenantinvalidexception": "Tenant {0} is illegal"
     }
   },
   "nfeu": {
@@ -1807,6 +1811,14 @@
     }
   },
   "nmaaja": {
+    "createautoexeccombopjobapi": {
+      "getname": "Create homework with combination tools",
+      "input": {
+        "param": {
+          "roundcount": "Number of groups"
+        }
+      }
+    },
     "createautoexecjobfromcombopapi": {
       "getname": "Job creation (from combination tool)",
       "input": {
