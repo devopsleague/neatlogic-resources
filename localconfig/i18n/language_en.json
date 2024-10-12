@@ -505,6 +505,15 @@
     "autoexecprofileisnotfoundexception": {
       "autoexecprofileisnotfoundexception": "The preset parameter set {0} does not exist"
     },
+    "autoexecrunnergroupnotfoundbytagexception": {
+      "autoexecrunnergroupnotfoundbytagexception": "According to tag \u0027{0}\u0027, the actuator group cannot be found"
+    },
+    "autoexecrunnergrouptaginvalidexception": {
+      "autoexecrunnergrouptaginvalidexception": "The tag value \u0027{0}\u0027 for the actuator group is illegal and must be an array"
+    },
+    "autoexecrunnergrouptagnotmatchexception": {
+      "autoexecrunnergrouptagnotmatchexception": "The actuator group \u0027{0}\u0027 is not within the range of label \u0027{1}\u0027"
+    },
     "autoexecserviceisnotcatalogexception": {
       "autoexecserviceisnotcatalogexception": "Service: {0} is not a directory"
     }
@@ -1278,11 +1287,16 @@
     "runnerconnectrefusedexception": {
       "runnerconnectrefusedexceptiona": "Runner link failed: {0}"
     },
+    "runnergrouprunnernotfoundexception": {
+      "runnergrouprunnernotfoundexceptionid": "The actuator group \u0027{0}\u0027 does not exist or the runner is not configured",
+      "runnergrouprunnernotfoundexceptionname": "RunnerGroup: {0} Runner not configured"
+    },
     "runnernotfoundbytagentrunneridexception": {
       "runnernotfoundbytagentrunneridexception": "Could not find the corresponding runner for {0}. Please check logs/tagentRegisterAndNetty.log for abnormal heartbeat"
     },
     "runnernotfoundexception": {
       "runnernotfoundexception": {
+        "all": "The runenr does not exist. Please go to the \u0027Runenr Management\u0027 to confirm if the runenr has been configured",
         "ipport": "{0}: {1} No matching runner found, please confirm if the runner exists in the executor management",
         "not": "Runner does not exist"
       }

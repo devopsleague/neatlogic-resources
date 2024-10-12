@@ -505,6 +505,15 @@
     "autoexecprofileisnotfoundexception": {
       "autoexecprofileisnotfoundexception": "预置参数集{0}不存在"
     },
+    "autoexecrunnergroupnotfoundbytagexception": {
+      "autoexecrunnergroupnotfoundbytagexception": "根据标签“{0}”，找不到执行器组"
+    },
+    "autoexecrunnergrouptaginvalidexception": {
+      "autoexecrunnergrouptaginvalidexception": "执行器组标签值“{0}”非法，标签不存在或不是数组"
+    },
+    "autoexecrunnergrouptagnotmatchexception": {
+      "autoexecrunnergrouptagnotmatchexception": "执行器组“{0}”没有以下标签“{1}”"
+    },
     "autoexecserviceisnotcatalogexception": {
       "autoexecserviceisnotcatalogexception": "服务：{0}不是目录"
     }
@@ -1307,13 +1316,18 @@
     "runnerconnectrefusedexception": {
       "runnerconnectrefusedexceptiona": "Runner 链接失败： {0}"
     },
+    "runnergrouprunnernotfoundexception": {
+      "runnergrouprunnernotfoundexceptionid": "执行器组“{0}”不存在或未配置runner",
+      "runnergrouprunnernotfoundexceptionname": "runnerGroup: {0}未配置runner"
+    },
     "runnernotfoundbytagentrunneridexception": {
       "runnernotfoundbytagentrunneridexception": "未找到{0}对应的runner,请查看logs/tagentRegisterAndNetty.log,心跳异常"
     },
     "runnernotfoundexception": {
       "runnernotfoundexception": {
+        "all": "执行器(runenr)不存在,请前往“执行器管理”确认是否配置了执行器(runner)",
         "ipport": "{0}:{1}没有找到匹配的runner,请确认执行器管理是否存在该runner",
-        "not": "runner不存在"
+        "not": "runner“{0}”不存在"
       }
     },
     "runnernotmatchexception": {
