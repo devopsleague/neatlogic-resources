@@ -509,7 +509,7 @@
       "autoexecrunnergroupnotfoundbytagexception": "根据标签“{0}”，找不到执行器组"
     },
     "autoexecrunnergrouptaginvalidexception": {
-      "autoexecrunnergrouptaginvalidexception": "执行器组标签值“{0}”非法，标签不存在或不是数组"
+      "autoexecrunnergrouptaginvalidexception": "执行器组标签值“{0}”非法，标签不存在或不是数组。如果页面控件没有值，说明该标签已被删除，需要清空下拉框，重新配置保存"
     },
     "autoexecrunnergrouptagnotmatchexception": {
       "autoexecrunnergrouptagnotmatchexception": "执行器组“{0}”没有以下标签“{1}”"
