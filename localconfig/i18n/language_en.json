@@ -4976,6 +4976,7 @@
     "cmdb": {
       "abbrname": "for short",
       "addid": "ID, do not provide a representative to add",
+      "alertlevel": "level",
       "allowedit": "Allow editing",
       "append": "New addition",
       "appmoduleabbrname": "Application Module Abbreviation",

@@ -5028,6 +5028,7 @@
     "cmdb": {
       "abbrname": "简称",
       "addid": "id，不提供代表添加",
+      "alertlevel": "级别",
       "allowedit": "是否允许编辑",
       "append": "新增",
       "appmoduleabbrname": "应用模块简称",
