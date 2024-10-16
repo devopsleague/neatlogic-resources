@@ -1406,6 +1406,10 @@
     }
   },
   "nffe": {
+    "formattributenotfoundexception": {
+      "formattributenotfoundexception_a": "表单属性：{0}不存在",
+      "formattributenotfoundexception_b": "表单{0}中找不到{1}属性"
+    },
     "formextendattributeconfigillegalexception": {
       "formextendattributeconfigillegalexception_a": "表单扩展数据中，{0} 类型属性 {1} 的配置中缺少 {2} 字段",
       "formextendattributeconfigillegalexception_b": "表单扩展数据中，{0} 类型属性 {1} 的配置中 {2} 字段值为 {3} 不合法"
@@ -3715,6 +3719,14 @@
     },
     "channeltyperelationlistforselectapi": {
       "getname": "查询服务类型关系列表（下拉框专用）"
+    }
+  },
+  "nmpaf": {
+    "processtaskformpassworddecryptapi": {
+      "formattributeuuid": "表单密码组件UUID",
+      "getname": "解密工单中表单的密码组件值",
+      "nopermissiontoviewpassword": "没有权限查看密码",
+      "otherparamconfig": "其他参数配置"
     }
   },
   "nmpap": {
