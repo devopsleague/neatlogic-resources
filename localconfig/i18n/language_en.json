@@ -3524,6 +3524,9 @@
     }
   },
   "nmiar": {
+    "exportinspectresourcereportapi": {
+      "getname": "Export inspection asset report list"
+    },
     "inspectschedulesearchapi": {
       "getname": "Query the list of scheduled inspection tasks"
     },
