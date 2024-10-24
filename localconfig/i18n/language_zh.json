@@ -3552,6 +3552,9 @@
     }
   },
   "nmiar": {
+    "exportinspectresourcereportapi": {
+      "getname": "导出巡检资产报告列表"
+    },
     "inspectschedulesearchapi": {
       "getname": "查询巡检定时任务列表"
     },
