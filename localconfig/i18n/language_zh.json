@@ -3048,7 +3048,7 @@
   },
   "nmcps": {
     "cmdbprocessstephandlertype": {
-      "cientitysync": "配置项同步",
+      "cientitysync": "同步配置项",
       "cmdbsync": "CMDB同步"
     }
   },
@@ -5026,8 +5026,8 @@
       "userlib": "依赖工具"
     },
     "change": {
-      "changecreate": "变更创建",
-      "changehandle": "变更处理",
+      "changecreate": "创建变更",
+      "changehandle": "处理变更",
       "name": "变更模块"
     },
     "ciview": {
@@ -5443,7 +5443,7 @@
       "isreturnallattr": "是否返回所有属性",
       "phaseid": "阶段id",
       "phaselist": "阶段列表",
-      "processtaskcollection": "工单集合",
+      "processtaskcollection": "创建工单集合",
       "tasklist": "工单列表"
     },
     "rdm": {

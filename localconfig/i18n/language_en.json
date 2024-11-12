@@ -3020,7 +3020,7 @@
   },
   "nmcps": {
     "cmdbprocessstephandlertype": {
-      "cientitysync": "Configuration item synchronization",
+      "cientitysync": "Synchronize configuration items",
       "cmdbsync": "CMDB synchronization"
     }
   },
@@ -4974,8 +4974,8 @@
       "userlib": "Dependency tools"
     },
     "change": {
-      "changecreate": "Change creation",
-      "changehandle": "Change handling",
+      "changecreate": "Create Change",
+      "changehandle": "Handling changes",
       "name": "Change"
     },
     "ciview": {
@@ -5391,7 +5391,7 @@
       "isreturnallattr": "Do you want to return all attributes",
       "phaseid": "Stage ID",
       "phaselist": "Stage List",
-      "processtaskcollection": "Work Order Collection",
+      "processtaskcollection": "Create a collection of work orders",
       "tasklist": "Work Order List"
     },
     "rdm": {
