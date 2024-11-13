@@ -1461,6 +1461,7 @@
       "displaymodeaftertimeout": "Display method after work order timeout, optional values naturalTime | workTime",
       "processtaskstepenablecomment": "Work order step reply function",
       "slatimedisplaymode": "Display method for work order timeliness, with optional values of naturalTime | workTime",
+      "workcentercustomlimit": "The \u0027Personal Category\u0027 in the work order center exceeds the limit and cannot add custom categories",
       "workcenterrefresh": "Does the work order center automatically refresh"
     },
     "processtaskgroupsearch": {
@@ -1530,6 +1531,11 @@
   "nfpes": {
     "scoretemplatenotfoundexception": {
       "scoretemplatenotfoundexception": "Rating template: {0} does not exist"
+    }
+  },
+  "nfpew": {
+    "workcentercustomcountlimitexception": {
+      "workcentercustomcountlimitexception": "The number of \"Personal Category\" categories in the work order center cannot exceed \"{0}\""
     }
   },
   "nfpnc": {

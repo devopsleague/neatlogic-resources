@@ -1489,6 +1489,7 @@
       "displaymodeaftertimeout": "工单时效超时后显示方式，可选值naturalTime|workTime",
       "processtaskstepenablecomment": "是否工单步骤回复功能",
       "slatimedisplaymode": "工单时效显示方式，可选值naturalTime|workTime",
+      "workcentercustomlimit": "工单中心“个人分类”超过限制无法添加自定义分类（拥有“工单中心管理权限”的用户不受限制）",
       "workcenterrefresh": "工单中心是否自动刷新，默认值为1（自动刷新）"
     },
     "processtaskgroupsearch": {
@@ -1558,6 +1559,11 @@
   "nfpes": {
     "scoretemplatenotfoundexception": {
       "scoretemplatenotfoundexception": "评分模版 :{0} 不存在"
+    }
+  },
+  "nfpew": {
+    "workcentercustomcountlimitexception": {
+      "workcentercustomcountlimitexception": "工单中心“个人分类”分类数不能超过“{0}“个"
     }
   },
   "nfpnc": {
