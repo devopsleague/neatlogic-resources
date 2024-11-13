@@ -450,6 +450,10 @@
       "text": "Text parameters, can input strings, numbers",
       "textarea": "Text Field",
       "userselect": "User selector"
+    },
+    "reviewstatus": {
+      "failed": "Approval not approved",
+      "waiting": "Pending review"
     }
   },
   "nfae": {
