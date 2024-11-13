@@ -450,6 +450,10 @@
       "text": "文本参数，可输入字符串、数字",
       "textarea": "文本域",
       "userselect": "用户选择器"
+    },
+    "reviewstatus": {
+      "failed": "审批未通过",
+      "waiting": "待审核"
     }
   },
   "nfae": {
