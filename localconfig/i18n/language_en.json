@@ -1185,6 +1185,7 @@
     },
     "eoanotifytriggertype": {
       "description": {
+        "activeeoastep": "Trigger notification when approval steps are activated",
         "eoafailed": "Trigger notification when approval fails",
         "eoasucceed": "Trigger notification when approval is successful",
         "passeoastep": "Trigger notification when the approval step handler agrees",
@@ -1192,6 +1193,7 @@
         "starteoa": "Trigger notification when the step handler initiates an approval task"
       },
       "text": {
+        "activeeoastep": "Activate approval steps",
         "eoafailed": "Approval failed",
         "eoasucceed": "Approval successful",
         "passeoastep": "Agree on approval steps",

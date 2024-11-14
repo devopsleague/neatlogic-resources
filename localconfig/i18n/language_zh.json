@@ -1214,6 +1214,7 @@
     },
     "eoanotifytriggertype": {
       "description": {
+        "activeeoastep": "审批步骤激活时触发通知",
         "eoafailed": "审批失败时触发通知",
         "eoasucceed": "审批成功时触发通知",
         "passeoastep": "审批步骤处理人同意时触发通知",
@@ -1221,6 +1222,7 @@
         "starteoa": "步骤处理人发起审批任务时触发通知"
       },
       "text": {
+        "activeeoastep": "激活审批步骤",
         "eoafailed": "审批失败",
         "eoasucceed": "审批成功",
         "passeoastep": "同意审批步骤",
