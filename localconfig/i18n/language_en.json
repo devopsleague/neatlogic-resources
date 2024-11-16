@@ -4311,6 +4311,11 @@
       "getname": "Search for webhook data"
     }
   },
+  "nmta": {
+    "gettagentqueueinfoapi": {
+      "getname": "Get tagent session queue information"
+    }
+  },
   "nmtaa": {
     "apiauditdetaildownloadapi": {
       "getname": "Download interface call records"
@@ -4505,6 +4510,9 @@
     },
     "gethomepageapi": {
       "getname": "Get homepage configuration information"
+    },
+    "getusersessionqueueinfoapi": {
+      "getname": "Retrieve user session queue information"
     },
     "listhomepageapi": {
       "getname": "Homepage Configuration List"

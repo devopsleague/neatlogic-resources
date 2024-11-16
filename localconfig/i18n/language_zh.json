@@ -4361,6 +4361,11 @@
       "getname": "搜索webhook数据"
     }
   },
+  "nmta": {
+    "gettagentqueueinfoapi": {
+      "getname": "获取tagent会话队列信息"
+    }
+  },
   "nmtaa": {
     "apiauditdetaildownloadapi": {
       "getname": "下载接口调用记录"
@@ -4557,6 +4562,9 @@
     },
     "gethomepageapi": {
       "getname": "获取默认首页配置信息"
+    },
+    "getusersessionqueueinfoapi": {
+      "getname": "获取用户会话队列信息"
     },
     "listhomepageapi": {
       "getname": "默认首页配置列表"
