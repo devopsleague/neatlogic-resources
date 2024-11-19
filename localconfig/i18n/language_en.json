@@ -1190,7 +1190,8 @@
         "eoasucceed": "Trigger notification when approval is successful",
         "passeoastep": "Trigger notification when the approval step handler agrees",
         "rejecteoastep": "Trigger notification when approval step handler rejects",
-        "starteoa": "Trigger notification when the step handler initiates an approval task"
+        "starteoa": "Trigger notification when the step handler initiates an approval task",
+        "transfereoastep": "Trigger notification when transferring approval steps"
       },
       "text": {
         "activeeoastep": "Activate approval steps",
@@ -1211,6 +1212,13 @@
     },
     "eoarunningexception": {
       "eoarunningexception": "Approval in progress"
+    },
+    "eoastepcannotbetransferredexception": {
+      "getmessage": {
+        "other": "EOA steps cannot be handed over",
+        "pending": "EOA step not activated, cannot be handed over",
+        "succeed": "The EOA step has been completed and cannot be handed over"
+      }
     },
     "eoastependexception": {
       "eoastependexception": "EOA step: {0} has ended"
@@ -3440,11 +3448,17 @@
     "completeeoastepapi": {
       "getname": "Complete EOA steps"
     },
+    "eoatransferablesteplistapi": {
+      "getname": "EOA step list interface that can be handed over by the current user"
+    },
     "geteoaapi": {
       "getname": "Obtain EOA information"
     },
     "saveeoaapi": {
       "getname": "Submit EOA"
+    },
+    "transfereoastepapi": {
+      "getname": "Transfer approval steps"
     }
   },
   "nmeas": {

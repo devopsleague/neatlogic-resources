@@ -1219,7 +1219,8 @@
         "eoasucceed": "审批成功时触发通知",
         "passeoastep": "审批步骤处理人同意时触发通知",
         "rejecteoastep": "审批步骤处理人驳回时触发通知",
-        "starteoa": "步骤处理人发起审批任务时触发通知"
+        "starteoa": "步骤处理人发起审批任务时触发通知",
+        "transfereoastep": "转交审批步骤时触发通知"
       },
       "text": {
         "activeeoastep": "激活审批步骤",
@@ -1240,6 +1241,13 @@
     },
     "eoarunningexception": {
       "eoarunningexception": "审批进行中"
+    },
+    "eoastepcannotbetransferredexception": {
+      "getmessage": {
+        "other": "EOA步骤不可转交",
+        "pending": "EOA步骤未激活，不可转交",
+        "succeed": "EOA步骤已完成，不可转交"
+      }
     },
     "eoastependexception": {
       "eoastependexception": "EOA步骤：{0} 已结束"
@@ -3468,11 +3476,17 @@
     "completeeoastepapi": {
       "getname": "完成EOA步骤"
     },
+    "eoatransferablesteplistapi": {
+      "getname": "当前用户可转交的EOA步骤列表接口"
+    },
     "geteoaapi": {
       "getname": "获取EOA信息"
     },
     "saveeoaapi": {
       "getname": "提交EOA"
+    },
+    "transfereoastepapi": {
+      "getname": "转交审批步骤"
     }
   },
   "nmeas": {
