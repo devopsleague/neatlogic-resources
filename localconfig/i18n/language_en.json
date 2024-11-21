@@ -1472,6 +1472,7 @@
       "processtaskstepenablecomment": "Work order step reply function",
       "slatimedisplaymode": "Display method for work order timeliness, with optional values of naturalTime | workTime",
       "workcentercustomlimit": "The \u0027Personal Category\u0027 in the work order center exceeds the limit and cannot add custom categories",
+      "workcenterprocesstasknewpage": "Click on the ticket center to open a new page. The default value is 0, which means it will not be opened by default",
       "workcenterrefresh": "Does the work order center automatically refresh"
     },
     "processtaskgroupsearch": {
