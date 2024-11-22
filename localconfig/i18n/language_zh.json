@@ -394,6 +394,14 @@
     "autoexec": {
       "getauthdisplayname": "自动化数据消费权限",
       "getauthintroduction": "查询工具库、自定义工具库相关数据"
+    },
+    "autoexec_combop_add": {
+      "getauthdisplayname": "组合工具新建权限",
+      "getauthintroduction": "对组合工具进行新增、复制、导入/导出"
+    },
+    "autoexec_combop_search": {
+      "getauthdisplayname": "组合工具查看权限",
+      "getauthintroduction": "对组合工具菜单查看权限"
     }
   },
   "nfac": {

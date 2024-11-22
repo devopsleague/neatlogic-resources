@@ -394,6 +394,14 @@
     "autoexec": {
       "getauthdisplayname": "Automated data consumption permissions",
       "getauthintroduction": "Query tool library and custom tool library related data"
+    },
+    "autoexec_combop_add": {
+      "getauthdisplayname": "Create new permissions for combination tools",
+      "getauthintroduction": "Add, copy, import/export composite tools"
+    },
+    "autoexec_combop_search": {
+      "getauthdisplayname": "View permissions for combination tools",
+      "getauthintroduction": "View permissions for the combination tool menu"
     }
   },
   "nfac": {
